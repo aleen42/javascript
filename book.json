@@ -1,0 +1,89 @@
+{
+    "structure": {
+        "readme": "README.md"
+    },
+    "styles": {
+        "website": "style/website.css",
+        "ebook": "style/ebook.css",
+        "pdf": "style/pdf.css",
+        "mobi": "style/mobi.css",
+        "epub": "style/epub.css"
+    },
+    "links": {
+        "sidebar": {
+            "GitHub Project": "https://github.com/aleen42/javascript"
+        }
+    },
+    "plugins": [
+        "github",
+        "github-edit",
+        "sharing",
+        "ga",
+        "injection",
+        "advanced-emoji",
+        "page-footer",
+        "page-treeview",
+        "mathjax",
+        "ace",
+        "resources"
+    ],
+    "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/aleen42/javascript"
+        },
+        "github-edit": {
+            "repo": "aleen42/javascript"
+        },
+        "sharing": {
+            "weibo": true,
+            "facebook": true,
+            "twitter": true,
+            "google": false,
+            "instapaper": false,
+            "vk": false,
+            "all": [
+                "facebook",
+                "google",
+                "twitter",
+                "weibo",
+                "instapaper"
+            ]
+        },
+        "ga": {
+            "token": "UA-75457732-1"
+        },
+        "injection": {
+            "js": [
+                "src/index.js"
+            ]
+        },
+        "advanced-emoji": {
+            "embedEmojis": true
+        },
+        "page-footer": {
+            "isShowIssues": true,
+            "wisdom": "More than a coder, more than a designer",
+            "copyright": "Copyright © aleen42",
+            "issueNum": "20",
+            "style": "symmetrical",
+            "repo": "aleen42/personalwiki",
+            "isShowQRCode": true,
+            "timeColor": "#009fa6",
+            "utcOffset": "8",
+            "format": "yyyy-MM-dd hh:mm:ss",
+            "signature": "Aleen",
+            "baseUri": "https://aleen42.gitbooks.io/javascript/content/",
+            "copyrightColor": "#666",
+            "description": "update time:"
+        },
+        "page-treeview": {
+            "copyright": "Copyright © aleen42",
+            "minHeaderCount": "2",
+            "minHeaderDeep": "2"
+        },
+        "resources": {
+            "type": "github",
+            "repo": "aleen42/javascript"
+        }
+    }
+}
