@@ -1,0 +1,38 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "personal javascript guide",
+  "scripts": {
+    "gitbook:install": "node ./node_modules/gitbook-cli/bin/gitbook.js install",
+    "gitbook:build": "node ./node_modules/gitbook-cli/bin/gitbook.js build . gh-pages --log=debug --debug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleen42/javascript.git"
+  },
+  "author": "aleen42 <aleen42@vip.qq.com> (https://github.com/aleen42)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aleen42/javascript/issues"
+  },
+  "homepage": "https://github.com/aleen42/javascript#readme",
+  "dependencies": {
+    "gitbook": "aleen42/gitbook#3.2.0-custom",
+    "gitbook-cli": "aleen42/gitbook-cli#2.3.2-custom",
+    "gitbook-plugin-ace": "0.3.2",
+    "gitbook-plugin-advanced-emoji": "0.2.2",
+    "gitbook-plugin-fontsettings": "2.0.0",
+    "gitbook-plugin-ga": "1.0.1",
+    "gitbook-plugin-github": "2.0.0",
+    "gitbook-plugin-github-edit": "1.0.9",
+    "gitbook-plugin-highlight": "2.0.2",
+    "gitbook-plugin-livereload": "0.0.1",
+    "gitbook-plugin-lunr": "aleen42/plugin-lunr#1.2.0-custom",
+    "gitbook-plugin-page-footer": "5.3.5",
+    "gitbook-plugin-page-treeview": "2.9.7",
+    "gitbook-plugin-resources": "1.2.7",
+    "gitbook-plugin-search": "2.2.1",
+    "gitbook-plugin-sharing": "1.0.2",
+    "gitbook-plugin-theme-aleen42": "1.0.6"
+  }
+}

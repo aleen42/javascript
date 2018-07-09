@@ -1,13 +1,11 @@
 {
+    "gitbook": "local",
+    "title": "Aleen",
     "structure": {
         "readme": "README.md"
     },
     "styles": {
-        "website": "style/website.css",
-        "ebook": "style/ebook.css",
-        "pdf": "style/pdf.css",
-        "mobi": "style/mobi.css",
-        "epub": "style/epub.css"
+        "website": "style/website.css"
     },
     "links": {
         "sidebar": {
@@ -19,13 +17,12 @@
         "github-edit",
         "sharing",
         "ga",
-        "injection",
         "advanced-emoji",
         "page-footer",
         "page-treeview",
-        "mathjax",
         "ace",
-        "resources"
+        "resources",
+        "theme-aleen42"
     ],
     "pluginsConfig": {
         "github": {
@@ -51,11 +48,6 @@
         },
         "ga": {
             "token": "UA-75457732-1"
-        },
-        "injection": {
-            "js": [
-                "src/index.js"
-            ]
         },
         "advanced-emoji": {
             "embedEmojis": true
