@@ -1,0 +1,1897 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Arrays · Aleen</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.0">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-advanced-emoji/emoji-website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-page-footer/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-page-treeview/style.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-ace/ace.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../style/website.css">
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="theme-color" content="#333333">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary toggled">
+    
+    
+    
+        
+        <li>
+            <a href="https://github.com/aleen42/javascript" target="_blank" class="custom-link">GitHub Project</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter "
+            data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    JavaScript
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.2" data-path="../types/types.html">
+            
+                <a href="../types/types.html">
+            
+                    
+                    Types
+            
+                </a>
+            
+
+            
+            <ul class="articles ">
+                
+    
+        <li class="chapter "
+            data-level="1.2.1" data-path="../types/primitives/primitives.html">
+            
+                <a href="../types/primitives/primitives.html">
+            
+                    
+                    Primitives(基元類型)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.2.2" data-path="../types/complex/complex.html">
+            
+                <a href="../types/complex/complex.html">
+            
+                    
+                    Complex(複合類型)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+                <div class="toggle-option"></div>
+            </ul>
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.3" data-path="../references/references.html">
+            
+                <a href="../references/references.html">
+            
+                    
+                    References
+            
+                </a>
+            
+
+            
+            <ul class="articles ">
+                
+    
+        <li class="chapter "
+            data-level="1.3.1" >
+            
+                <span>
+            
+                    
+                    Use const
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.3.2" >
+            
+                <span>
+            
+                    
+                    Use let
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+                <div class="toggle-option"></div>
+            </ul>
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.4" data-path="../objects/objects.html">
+            
+                <a href="../objects/objects.html">
+            
+                    
+                    Objects
+            
+                </a>
+            
+
+            
+            <ul class="articles ">
+                
+    
+        <li class="chapter "
+            data-level="1.4.1" >
+            
+                <span>
+            
+                    
+                    Use {}
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.4.2" >
+            
+                <span>
+            
+                    
+                    Do not use reserved words
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.4.3" >
+            
+                <span>
+            
+                    
+                    Use computed property names
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.4.4" >
+            
+                <span>
+            
+                    
+                    Use shorthand
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.4.5" >
+            
+                <span>
+            
+                    
+                    Group shorthand
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+                <div class="toggle-option"></div>
+            </ul>
+            
+        </li>
+    
+        <li class="chapter active"
+            data-level="1.5" data-path="arrays.html">
+            
+                <a href="arrays.html">
+            
+                    
+                    Arrays
+            
+                </a>
+            
+
+            
+            <ul class="articles toggled">
+                
+    
+        <li class="chapter "
+            data-level="1.5.1" >
+            
+                <span>
+            
+                    
+                    Use []
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.5.2" >
+            
+                <span>
+            
+                    
+                    Use push()
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.5.3" >
+            
+                <span>
+            
+                    
+                    Use spread operator ...
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.5.4" >
+            
+                <span>
+            
+                    
+                    Use from()
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+                <div class="toggle-option"></div>
+            </ul>
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.6" data-path="../destructuring/destructuring.html">
+            
+                <a href="../destructuring/destructuring.html">
+            
+                    
+                    Destructuring(解構)
+            
+                </a>
+            
+
+            
+            <ul class="articles ">
+                
+    
+        <li class="chapter "
+            data-level="1.6.1" >
+            
+                <span>
+            
+                    
+                    Use object destructuring
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.6.2" >
+            
+                <span>
+            
+                    
+                    Use array destructuring
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+                <div class="toggle-option"></div>
+            </ul>
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.7" data-path="../string/string.html">
+            
+                <a href="../string/string.html">
+            
+                    
+                    String
+            
+                </a>
+            
+
+            
+            <ul class="articles ">
+                
+    
+        <li class="chapter "
+            data-level="1.7.1" >
+            
+                <span>
+            
+                    
+                    Use single quotes for string
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.7.2" >
+            
+                <span>
+            
+                    
+                    Multiple lines when too many characters
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.7.3" >
+            
+                <span>
+            
+                    
+                    Use template strings
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.7.4" >
+            
+                <span>
+            
+                    
+                    Do not use eval()
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+                <div class="toggle-option"></div>
+            </ul>
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.8" data-path="../functions/functions.html">
+            
+                <a href="../functions/functions.html">
+            
+                    
+                    Functions
+            
+                </a>
+            
+
+            
+            <ul class="articles ">
+                
+    
+        <li class="chapter "
+            data-level="1.8.1" >
+            
+                <span>
+            
+                    
+                    Use function declarations
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.8.2" >
+            
+                <span>
+            
+                    
+                    Do not declare functions in a non-function block
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.8.3" >
+            
+                <span>
+            
+                    
+                    Never name a parameter arguments
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.8.4" >
+            
+                <span>
+            
+                    
+                    Use default parameter syntax
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.8.5" >
+            
+                <span>
+            
+                    
+                    Never use the Function constructor
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.8.6" >
+            
+                <span>
+            
+                    
+                    Spacing
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.8.7" >
+            
+                <span>
+            
+                    
+                    Never mutate parameters
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+                <div class="toggle-option"></div>
+            </ul>
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.9" data-path="../arrowFunctions/arrowFunctions.html">
+            
+                <a href="../arrowFunctions/arrowFunctions.html">
+            
+                    
+                    Arrow Functions
+            
+                </a>
+            
+
+            
+            <ul class="articles ">
+                
+    
+        <li class="chapter "
+            data-level="1.9.1" >
+            
+                <span>
+            
+                    
+                    Use arrow functions notation
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.9.2" >
+            
+                <span>
+            
+                    
+                    Omit the braces(忽略大括號) and use the implicit(隱式) return
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+                <div class="toggle-option"></div>
+            </ul>
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.10" data-path="../constructors/constructors.html">
+            
+                <a href="../constructors/constructors.html">
+            
+                    
+                    Constructors
+            
+                </a>
+            
+
+            
+            <ul class="articles ">
+                
+    
+        <li class="chapter "
+            data-level="1.10.1" >
+            
+                <span>
+            
+                    
+                    Use class
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.10.2" >
+            
+                <span>
+            
+                    
+                    Use extends for inheritance
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.10.3" >
+            
+                <span>
+            
+                    
+                    Use return this
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.10.4" >
+            
+                <span>
+            
+                    
+                    toString()
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+                <div class="toggle-option"></div>
+            </ul>
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.11" data-path="../modules/modules.html">
+            
+                <a href="../modules/modules.html">
+            
+                    
+                    Modules
+            
+                </a>
+            
+
+            
+            <ul class="articles ">
+                
+    
+        <li class="chapter "
+            data-level="1.11.1" >
+            
+                <span>
+            
+                    
+                    Use modules
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.11.2" >
+            
+                <span>
+            
+                    
+                    Do not use wildcart imports
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.11.3" >
+            
+                <span>
+            
+                    
+                    Do not export directly from imports
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+                <div class="toggle-option"></div>
+            </ul>
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.12" data-path="../iteratorGenerator/iteratorGenerator.html">
+            
+                <a href="../iteratorGenerator/iteratorGenerator.html">
+            
+                    
+                    Iterators and Generators
+            
+                </a>
+            
+
+            
+            <ul class="articles ">
+                
+    
+        <li class="chapter "
+            data-level="1.12.1" >
+            
+                <span>
+            
+                    
+                    Do not use iterators
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.12.2" >
+            
+                <span>
+            
+                    
+                    Do not use generators for now (reserved)
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+                <div class="toggle-option"></div>
+            </ul>
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.13" data-path="../properties/properties.html">
+            
+                <a href="../properties/properties.html">
+            
+                    
+                    Properties
+            
+                </a>
+            
+
+            
+            <ul class="articles ">
+                
+    
+        <li class="chapter "
+            data-level="1.13.1" >
+            
+                <span>
+            
+                    
+                    Use dot notation
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.13.2" >
+            
+                <span>
+            
+                    
+                    Use subscript notation []
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+                <div class="toggle-option"></div>
+            </ul>
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.14" data-path="../variables/variables.html">
+            
+                <a href="../variables/variables.html">
+            
+                    
+                    Variables
+            
+                </a>
+            
+
+            
+            <ul class="articles ">
+                
+    
+        <li class="chapter "
+            data-level="1.14.1" >
+            
+                <span>
+            
+                    
+                    Always use const
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.14.2" >
+            
+                <span>
+            
+                    
+                    Use one const declaration per variable
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.14.3" >
+            
+                <span>
+            
+                    
+                    Group all the const and let
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.14.4" >
+            
+                <span>
+            
+                    
+                    Place yur variables in a reasonable place
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+                <div class="toggle-option"></div>
+            </ul>
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.15" data-path="../hoisted/hoisted.html">
+            
+                <a href="../hoisted/hoisted.html">
+            
+                    
+                    Hoisted(變量聲明提升)
+            
+                </a>
+            
+
+            
+            <ul class="articles ">
+                
+    
+        <li class="chapter "
+            data-level="1.15.1" >
+            
+                <span>
+            
+                    
+                    Instruction
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.15.2" >
+            
+                <span>
+            
+                    
+                    Function expressions
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.15.3" >
+            
+                <span>
+            
+                    
+                    Function declarations
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.15.4" >
+            
+                <span>
+            
+                    
+                    More details
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+                <div class="toggle-option"></div>
+            </ul>
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.16" data-path="../comparison/comparison.html">
+            
+                <a href="../comparison/comparison.html">
+            
+                    
+                    Comparison Operators & Equality
+            
+                </a>
+            
+
+            
+            <ul class="articles ">
+                
+    
+        <li class="chapter "
+            data-level="1.16.1" >
+            
+                <span>
+            
+                    
+                    Conditional statements
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.16.2" >
+            
+                <span>
+            
+                    
+                    Use shortcuts
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.16.3" >
+            
+                <span>
+            
+                    
+                    More details
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+                <div class="toggle-option"></div>
+            </ul>
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.17" data-path="../blocks/blocks.html">
+            
+                <a href="../blocks/blocks.html">
+            
+                    
+                    Blocks
+            
+                </a>
+            
+
+            
+            <ul class="articles ">
+                
+    
+        <li class="chapter "
+            data-level="1.17.1" >
+            
+                <span>
+            
+                    
+                    Use braces
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.17.2" >
+            
+                <span>
+            
+                    
+                    Closing braces
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+                <div class="toggle-option"></div>
+            </ul>
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.18" data-path="../comment/comment.html">
+            
+                <a href="../comment/comment.html">
+            
+                    
+                    Comments
+            
+                </a>
+            
+
+            
+            <ul class="articles ">
+                
+    
+        <li class="chapter "
+            data-level="1.18.1" >
+            
+                <span>
+            
+                    
+                    Function comments
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.18.2" >
+            
+                <span>
+            
+                    
+                    Control statements
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.18.3" >
+            
+                <span>
+            
+                    
+                    Helping comments
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.18.4" >
+            
+                <span>
+            
+                    
+                    Header comments of files
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+                <div class="toggle-option"></div>
+            </ul>
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.19" data-path="../whitespace/whitespace.html">
+            
+                <a href="../whitespace/whitespace.html">
+            
+                    
+                    Whitespace
+            
+                </a>
+            
+
+            
+            <ul class="articles ">
+                
+    
+        <li class="chapter "
+            data-level="1.19.1" >
+            
+                <span>
+            
+                    
+                    One space
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.19.2" >
+            
+                <span>
+            
+                    
+                    End files
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.19.3" >
+            
+                <span>
+            
+                    
+                    Chain calling
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.19.4" >
+            
+                <span>
+            
+                    
+                    Leave a blank line after blocks and before the next statement
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.19.5" >
+            
+                <span>
+            
+                    
+                    Do not pad blocks with blank lines
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+                <div class="toggle-option"></div>
+            </ul>
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.20" data-path="../commasSemicolons/commasSemicolons.html">
+            
+                <a href="../commasSemicolons/commasSemicolons.html">
+            
+                    
+                    Commas & Semicolons
+            
+                </a>
+            
+
+            
+            <ul class="articles ">
+                
+    
+        <li class="chapter "
+            data-level="1.20.1" >
+            
+                <span>
+            
+                    
+                    Commas
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.20.2" >
+            
+                <span>
+            
+                    
+                    Semicolons
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+                <div class="toggle-option"></div>
+            </ul>
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.21" data-path="../typeCastingCoerion/typeCastingCoerion.html">
+            
+                <a href="../typeCastingCoerion/typeCastingCoerion.html">
+            
+                    
+                    Type Casting(類型轉換) & Coercion(強制多態)
+            
+                </a>
+            
+
+            
+            <ul class="articles ">
+                
+    
+        <li class="chapter "
+            data-level="1.21.1" >
+            
+                <span>
+            
+                    
+                    Strings
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.21.2" >
+            
+                <span>
+            
+                    
+                    Numbers
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.21.3" >
+            
+                <span>
+            
+                    
+                    Booleans
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+                <div class="toggle-option"></div>
+            </ul>
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.22" data-path="../naming/naming.html">
+            
+                <a href="../naming/naming.html">
+            
+                    
+                    Naming
+            
+                </a>
+            
+
+            
+            <ul class="articles ">
+                
+    
+        <li class="chapter "
+            data-level="1.22.1" >
+            
+                <span>
+            
+                    
+                    Use camelcase
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.22.2" >
+            
+                <span>
+            
+                    
+                    Use pascalcase
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.22.3" >
+            
+                <span>
+            
+                    
+                    Use a leading underscore _
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.22.4" >
+            
+                <span>
+            
+                    
+                    Do not save references to this
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.22.5" >
+            
+                <span>
+            
+                    
+                    Name the file with the class name
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+                <div class="toggle-option"></div>
+            </ul>
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.23" data-path="../accessors/accessors.html">
+            
+                <a href="../accessors/accessors.html">
+            
+                    
+                    Accessors
+            
+                </a>
+            
+
+            
+            <ul class="articles ">
+                
+    
+        <li class="chapter "
+            data-level="1.23.1" >
+            
+                <span>
+            
+                    
+                    Use getVal() and setVal(val)
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.23.2" >
+            
+                <span>
+            
+                    
+                    Use isVal() or hasVal()
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.23.3" >
+            
+                <span>
+            
+                    
+                    Use get() and set()
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+                <div class="toggle-option"></div>
+            </ul>
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.24" data-path="../events/events.html">
+            
+                <a href="../events/events.html">
+            
+                    
+                    Events
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.25" data-path="../jquery/jquery.html">
+            
+                <a href="../jquery/jquery.html">
+            
+                    
+                    jQuery
+            
+                </a>
+            
+
+            
+            <ul class="articles ">
+                
+    
+        <li class="chapter "
+            data-level="1.25.1" >
+            
+                <span>
+            
+                    
+                    Prefix $
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.25.2" >
+            
+                <span>
+            
+                    
+                    Cache jQuery object
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.25.3" >
+            
+                <span>
+            
+                    
+                    Use Cascading or parent > child
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter "
+            data-level="1.25.4" >
+            
+                <span>
+            
+                    
+                    Performance of different selectors
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+                <div class="toggle-option"></div>
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Arrays</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+                                <section class="normal markdown-section">
+                                
+                                <div class="treeview__container"><div class="treeview__container-title"><span class="treeview__main-title">Treeview</span><span class="treeview__copyright">Copyright &#xA9; aleen42 all right reserved, powered by <a href="https://github.com/aleen42" target="_blank">aleen42</a></span></div><ul>
+<li><div><a href="#arrays-back">Arrays Back</a><i class="level__parent level__item level__parent--opened" state="opened" onclick="var curState = this.getAttribute(&apos;state&apos;);var nextState = curState === &apos;opened&apos; ? &apos;hidden&apos; : &apos;opened&apos;;this.setAttribute(&apos;state&apos;, nextState);this.className = this.className.split(curState).join(nextState);var list = this.parentNode.nextElementSibling;if (nextState === &apos;hidden&apos;) {    list.style.display = &apos;none&apos;;} else {    list.style.display = &apos;block&apos;;}"></i></div>
+<ul>
+<li> 
+<ul>
+<li><div><a href="#1-use-">1. Use []</a><i></i></div></li>
+<li><div><a href="#2-use-push">2. Use push()</a><i></i></div></li>
+<li><div><a href="#3-use-spread-operator-">3. Use spread operator ...</a><i></i></div></li>
+<li><div><a href="#4-use-from">4. Use from()</a><i></i></div></li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+
+
+
+<h2 id="arrays-back">Arrays <a href="../"><strong>Back</strong></a></h2><h4 id="1-use-">1. Use <code>[]</code></h4><ul><li>To use literal syntax for array creation.
+</li>
+<li>Eslint rules tags: <a href="http://eslint.org/docs/rules/no-array-constructor.html" target="_blank"><code>no-array-constructor</code></a>
+</li></ul>
+<pre><code class="lang-js"><span class="hljs-comment">/**
+ * bad
+ */</span>
+<span class="hljs-keyword">const</span> items = <span class="hljs-keyword">new</span> <span class="hljs-built_in">Array</span>();
+
+<span class="hljs-comment">/**
+ * good
+ */</span>
+<span class="hljs-keyword">const</span> items = [];</code></pre>
+<h4 id="2-use-push">2. Use <code>push()</code></h4><ul><li>To use Array#push instead of direct assignment to add items to an array.
+</li></ul>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> arr = [];
+
+<span class="hljs-comment">/**
+ * bad
+ */</span>
+arr[arr.length] = <span class="hljs-string">&apos;aleen&apos;</span>;
+
+<span class="hljs-comment">/**
+ * good
+ */</span>
+arr.push(<span class="hljs-string">&apos;aleen&apos;</span>);</code></pre>
+<h4 id="3-use-spread-operator-">3. Use spread operator <code>...</code></h4><ul><li>To use array spreads to copy arrays.
+</li></ul>
+<pre><code class="lang-js"><span class="hljs-comment">/** 
+ * bad
+ */</span>
+<span class="hljs-keyword">const</span> len = items.length;
+<span class="hljs-keyword">const</span> itemsCopy = [];
+<span class="hljs-keyword">let</span> i;
+
+<span class="hljs-keyword">for</span> (i = <span class="hljs-number">0</span>; i &lt; len; i++) {
+    itemsCopy[i] = items[i]; 
+}
+
+<span class="hljs-comment">/**
+ * good
+ */</span>
+<span class="hljs-keyword">const</span> itemsCopy = [...items];</code></pre>
+<ul><li><em>Notice that: spread operator is only supported by ECMAScript 6 (ES6). <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator#Browser_compatibility" target="_blank"><strong>Browser Compatibility</strong></a></em>
+</li></ul>
+<h4 id="4-use-from">4. Use <code>from()</code></h4><ul><li>To convert an array-like object to an array, use Array#from.
+</li></ul>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> foo = <span class="hljs-built_in">document</span>.querySelectorAll(<span class="hljs-string">&apos;.foo&apos;</span>);
+<span class="hljs-keyword">const</span> arr = <span class="hljs-built_in">Array</span>.from(foo);</code></pre>
+<footer class="footer"><div class="footer__container--symmetrical" alt="
+https://aleen42.gitbooks.io/javascript/content/arrays/arrays.html
+">
+<svg width="170px" height="170px" xmlns="http://www.w3.org/2000/svg"><path d="M8,8l2,0 0,2 -2,0 0,-2z M10,8l2,0 0,2 -2,0 0,-2z M12,8l2,0 0,2 -2,0 0,-2z M14,8l2,0 0,2 -2,0 0,-2z M16,8l2,0 0,2 -2,0 0,-2z M18,8l2,0 0,2 -2,0 0,-2z M20,8l2,0 0,2 -2,0 0,-2z M32,8l2,0 0,2 -2,0 0,-2z M36,8l2,0 0,2 -2,0 0,-2z M40,8l2,0 0,2 -2,0 0,-2z M42,8l2,0 0,2 -2,0 0,-2z M44,8l2,0 0,2 -2,0 0,-2z M46,8l2,0 0,2 -2,0 0,-2z M48,8l2,0 0,2 -2,0 0,-2z M52,8l2,0 0,2 -2,0 0,-2z M56,8l2,0 0,2 -2,0 0,-2z M62,8l2,0 0,2 -2,0 0,-2z M66,8l2,0 0,2 -2,0 0,-2z M68,8l2,0 0,2 -2,0 0,-2z M70,8l2,0 0,2 -2,0 0,-2z M74,8l2,0 0,2 -2,0 0,-2z M76,8l2,0 0,2 -2,0 0,-2z M82,8l2,0 0,2 -2,0 0,-2z M92,8l2,0 0,2 -2,0 0,-2z M94,8l2,0 0,2 -2,0 0,-2z M98,8l2,0 0,2 -2,0 0,-2z M100,8l2,0 0,2 -2,0 0,-2z M104,8l2,0 0,2 -2,0 0,-2z M106,8l2,0 0,2 -2,0 0,-2z M112,8l2,0 0,2 -2,0 0,-2z M126,8l2,0 0,2 -2,0 0,-2z M132,8l2,0 0,2 -2,0 0,-2z M134,8l2,0 0,2 -2,0 0,-2z M138,8l2,0 0,2 -2,0 0,-2z M148,8l2,0 0,2 -2,0 0,-2z M150,8l2,0 0,2 -2,0 0,-2z M152,8l2,0 0,2 -2,0 0,-2z M154,8l2,0 0,2 -2,0 0,-2z M156,8l2,0 0,2 -2,0 0,-2z M158,8l2,0 0,2 -2,0 0,-2z M160,8l2,0 0,2 -2,0 0,-2z M8,10l2,0 0,2 -2,0 0,-2z M20,10l2,0 0,2 -2,0 0,-2z M24,10l2,0 0,2 -2,0 0,-2z M26,10l2,0 0,2 -2,0 0,-2z M32,10l2,0 0,2 -2,0 0,-2z M34,10l2,0 0,2 -2,0 0,-2z M36,10l2,0 0,2 -2,0 0,-2z M38,10l2,0 0,2 -2,0 0,-2z M40,10l2,0 0,2 -2,0 0,-2z M42,10l2,0 0,2 -2,0 0,-2z M48,10l2,0 0,2 -2,0 0,-2z M54,10l2,0 0,2 -2,0 0,-2z M58,10l2,0 0,2 -2,0 0,-2z M60,10l2,0 0,2 -2,0 0,-2z M64,10l2,0 0,2 -2,0 0,-2z M66,10l2,0 0,2 -2,0 0,-2z M70,10l2,0 0,2 -2,0 0,-2z M72,10l2,0 0,2 -2,0 0,-2z M76,10l2,0 0,2 -2,0 0,-2z M78,10l2,0 0,2 -2,0 0,-2z M80,10l2,0 0,2 -2,0 0,-2z M82,10l2,0 0,2 -2,0 0,-2z M88,10l2,0 0,2 -2,0 0,-2z M96,10l2,0 0,2 -2,0 0,-2z M102,10l2,0 0,2 -2,0 0,-2z M104,10l2,0 0,2 -2,0 0,-2z M110,10l2,0 0,2 -2,0 0,-2z M112,10l2,0 0,2 -2,0 0,-2z M114,10l2,0 0,2 -2,0 0,-2z M120,10l2,0 0,2 -2,0 0,-2z M124,10l2,0 0,2 -2,0 0,-2z M128,10l2,0 0,2 -2,0 0,-2z M132,10l2,0 0,2 -2,0 0,-2z M136,10l2,0 0,2 -2,0 0,-2z M140,10l2,0 0,2 -2,0 0,-2z M144,10l2,0 0,2 -2,0 0,-2z M148,10l2,0 0,2 -2,0 0,-2z M160,10l2,0 0,2 -2,0 0,-2z M8,12l2,0 0,2 -2,0 0,-2z M12,12l2,0 0,2 -2,0 0,-2z M14,12l2,0 0,2 -2,0 0,-2z M16,12l2,0 0,2 -2,0 0,-2z M20,12l2,0 0,2 -2,0 0,-2z M24,12l2,0 0,2 -2,0 0,-2z M36,12l2,0 0,2 -2,0 0,-2z M38,12l2,0 0,2 -2,0 0,-2z M44,12l2,0 0,2 -2,0 0,-2z M46,12l2,0 0,2 -2,0 0,-2z M50,12l2,0 0,2 -2,0 0,-2z M52,12l2,0 0,2 -2,0 0,-2z M62,12l2,0 0,2 -2,0 0,-2z M72,12l2,0 0,2 -2,0 0,-2z M78,12l2,0 0,2 -2,0 0,-2z M82,12l2,0 0,2 -2,0 0,-2z M86,12l2,0 0,2 -2,0 0,-2z M90,12l2,0 0,2 -2,0 0,-2z M92,12l2,0 0,2 -2,0 0,-2z M94,12l2,0 0,2 -2,0 0,-2z M106,12l2,0 0,2 -2,0 0,-2z M112,12l2,0 0,2 -2,0 0,-2z M114,12l2,0 0,2 -2,0 0,-2z M116,12l2,0 0,2 -2,0 0,-2z M118,12l2,0 0,2 -2,0 0,-2z M120,12l2,0 0,2 -2,0 0,-2z M124,12l2,0 0,2 -2,0 0,-2z M132,12l2,0 0,2 -2,0 0,-2z M136,12l2,0 0,2 -2,0 0,-2z M144,12l2,0 0,2 -2,0 0,-2z M148,12l2,0 0,2 -2,0 0,-2z M152,12l2,0 0,2 -2,0 0,-2z M154,12l2,0 0,2 -2,0 0,-2z M156,12l2,0 0,2 -2,0 0,-2z M160,12l2,0 0,2 -2,0 0,-2z M8,14l2,0 0,2 -2,0 0,-2z M12,14l2,0 0,2 -2,0 0,-2z M14,14l2,0 0,2 -2,0 0,-2z M16,14l2,0 0,2 -2,0 0,-2z M20,14l2,0 0,2 -2,0 0,-2z M26,14l2,0 0,2 -2,0 0,-2z M28,14l2,0 0,2 -2,0 0,-2z M30,14l2,0 0,2 -2,0 0,-2z M36,14l2,0 0,2 -2,0 0,-2z M46,14l2,0 0,2 -2,0 0,-2z M48,14l2,0 0,2 -2,0 0,-2z M50,14l2,0 0,2 -2,0 0,-2z M58,14l2,0 0,2 -2,0 0,-2z M68,14l2,0 0,2 -2,0 0,-2z M70,14l2,0 0,2 -2,0 0,-2z M72,14l2,0 0,2 -2,0 0,-2z M74,14l2,0 0,2 -2,0 0,-2z M76,14l2,0 0,2 -2,0 0,-2z M84,14l2,0 0,2 -2,0 0,-2z M86,14l2,0 0,2 -2,0 0,-2z M88,14l2,0 0,2 -2,0 0,-2z M94,14l2,0 0,2 -2,0 0,-2z M96,14l2,0 0,2 -2,0 0,-2z M98,14l2,0 0,2 -2,0 0,-2z M106,14l2,0 0,2 -2,0 0,-2z M108,14l2,0 0,2 -2,0 0,-2z M110,14l2,0 0,2 -2,0 0,-2z M112,14l2,0 0,2 -2,0 0,-2z M114,14l2,0 0,2 -2,0 0,-2z M118,14l2,0 0,2 -2,0 0,-2z M122,14l2,0 0,2 -2,0 0,-2z M130,14l2,0 0,2 -2,0 0,-2z M132,14l2,0 0,2 -2,0 0,-2z M134,14l2,0 0,2 -2,0 0,-2z M136,14l2,0 0,2 -2,0 0,-2z M138,14l2,0 0,2 -2,0 0,-2z M144,14l2,0 0,2 -2,0 0,-2z M148,14l2,0 0,2 -2,0 0,-2z M152,14l2,0 0,2 -2,0 0,-2z M154,14l2,0 0,2 -2,0 0,-2z M156,14l2,0 0,2 -2,0 0,-2z M160,14l2,0 0,2 -2,0 0,-2z M8,16l2,0 0,2 -2,0 0,-2z M12,16l2,0 0,2 -2,0 0,-2z M14,16l2,0 0,2 -2,0 0,-2z M16,16l2,0 0,2 -2,0 0,-2z M20,16l2,0 0,2 -2,0 0,-2z M26,16l2,0 0,2 -2,0 0,-2z M28,16l2,0 0,2 -2,0 0,-2z M32,16l2,0 0,2 -2,0 0,-2z M34,16l2,0 0,2 -2,0 0,-2z M36,16l2,0 0,2 -2,0 0,-2z M40,16l2,0 0,2 -2,0 0,-2z M44,16l2,0 0,2 -2,0 0,-2z M52,16l2,0 0,2 -2,0 0,-2z M54,16l2,0 0,2 -2,0 0,-2z M56,16l2,0 0,2 -2,0 0,-2z M58,16l2,0 0,2 -2,0 0,-2z M60,16l2,0 0,2 -2,0 0,-2z M62,16l2,0 0,2 -2,0 0,-2z M64,16l2,0 0,2 -2,0 0,-2z M66,16l2,0 0,2 -2,0 0,-2z M68,16l2,0 0,2 -2,0 0,-2z M74,16l2,0 0,2 -2,0 0,-2z M76,16l2,0 0,2 -2,0 0,-2z M78,16l2,0 0,2 -2,0 0,-2z M88,16l2,0 0,2 -2,0 0,-2z M92,16l2,0 0,2 -2,0 0,-2z M98,16l2,0 0,2 -2,0 0,-2z M100,16l2,0 0,2 -2,0 0,-2z M102,16l2,0 0,2 -2,0 0,-2z M104,16l2,0 0,2 -2,0 0,-2z M106,16l2,0 0,2 -2,0 0,-2z M108,16l2,0 0,2 -2,0 0,-2z M118,16l2,0 0,2 -2,0 0,-2z M124,16l2,0 0,2 -2,0 0,-2z M126,16l2,0 0,2 -2,0 0,-2z M130,16l2,0 0,2 -2,0 0,-2z M132,16l2,0 0,2 -2,0 0,-2z M140,16l2,0 0,2 -2,0 0,-2z M142,16l2,0 0,2 -2,0 0,-2z M144,16l2,0 0,2 -2,0 0,-2z M148,16l2,0 0,2 -2,0 0,-2z M152,16l2,0 0,2 -2,0 0,-2z M154,16l2,0 0,2 -2,0 0,-2z M156,16l2,0 0,2 -2,0 0,-2z M160,16l2,0 0,2 -2,0 0,-2z M8,18l2,0 0,2 -2,0 0,-2z M20,18l2,0 0,2 -2,0 0,-2z M30,18l2,0 0,2 -2,0 0,-2z M32,18l2,0 0,2 -2,0 0,-2z M34,18l2,0 0,2 -2,0 0,-2z M36,18l2,0 0,2 -2,0 0,-2z M38,18l2,0 0,2 -2,0 0,-2z M46,18l2,0 0,2 -2,0 0,-2z M48,18l2,0 0,2 -2,0 0,-2z M52,18l2,0 0,2 -2,0 0,-2z M56,18l2,0 0,2 -2,0 0,-2z M64,18l2,0 0,2 -2,0 0,-2z M70,18l2,0 0,2 -2,0 0,-2z M72,18l2,0 0,2 -2,0 0,-2z M74,18l2,0 0,2 -2,0 0,-2z M78,18l2,0 0,2 -2,0 0,-2z M84,18l2,0 0,2 -2,0 0,-2z M88,18l2,0 0,2 -2,0 0,-2z M96,18l2,0 0,2 -2,0 0,-2z M100,18l2,0 0,2 -2,0 0,-2z M108,18l2,0 0,2 -2,0 0,-2z M112,18l2,0 0,2 -2,0 0,-2z M116,18l2,0 0,2 -2,0 0,-2z M120,18l2,0 0,2 -2,0 0,-2z M124,18l2,0 0,2 -2,0 0,-2z M130,18l2,0 0,2 -2,0 0,-2z M132,18l2,0 0,2 -2,0 0,-2z M140,18l2,0 0,2 -2,0 0,-2z M148,18l2,0 0,2 -2,0 0,-2z M160,18l2,0 0,2 -2,0 0,-2z M8,20l2,0 0,2 -2,0 0,-2z M10,20l2,0 0,2 -2,0 0,-2z M12,20l2,0 0,2 -2,0 0,-2z M14,20l2,0 0,2 -2,0 0,-2z M16,20l2,0 0,2 -2,0 0,-2z M18,20l2,0 0,2 -2,0 0,-2z M20,20l2,0 0,2 -2,0 0,-2z M24,20l2,0 0,2 -2,0 0,-2z M28,20l2,0 0,2 -2,0 0,-2z M32,20l2,0 0,2 -2,0 0,-2z M36,20l2,0 0,2 -2,0 0,-2z M40,20l2,0 0,2 -2,0 0,-2z M44,20l2,0 0,2 -2,0 0,-2z M48,20l2,0 0,2 -2,0 0,-2z M52,20l2,0 0,2 -2,0 0,-2z M56,20l2,0 0,2 -2,0 0,-2z M60,20l2,0 0,2 -2,0 0,-2z M64,20l2,0 0,2 -2,0 0,-2z M68,20l2,0 0,2 -2,0 0,-2z M72,20l2,0 0,2 -2,0 0,-2z M76,20l2,0 0,2 -2,0 0,-2z M80,20l2,0 0,2 -2,0 0,-2z M84,20l2,0 0,2 -2,0 0,-2z M88,20l2,0 0,2 -2,0 0,-2z M92,20l2,0 0,2 -2,0 0,-2z M96,20l2,0 0,2 -2,0 0,-2z M100,20l2,0 0,2 -2,0 0,-2z M104,20l2,0 0,2 -2,0 0,-2z M108,20l2,0 0,2 -2,0 0,-2z M112,20l2,0 0,2 -2,0 0,-2z M116,20l2,0 0,2 -2,0 0,-2z M120,20l2,0 0,2 -2,0 0,-2z M124,20l2,0 0,2 -2,0 0,-2z M128,20l2,0 0,2 -2,0 0,-2z M132,20l2,0 0,2 -2,0 0,-2z M136,20l2,0 0,2 -2,0 0,-2z M140,20l2,0 0,2 -2,0 0,-2z M144,20l2,0 0,2 -2,0 0,-2z M148,20l2,0 0,2 -2,0 0,-2z M150,20l2,0 0,2 -2,0 0,-2z M152,20l2,0 0,2 -2,0 0,-2z M154,20l2,0 0,2 -2,0 0,-2z M156,20l2,0 0,2 -2,0 0,-2z M158,20l2,0 0,2 -2,0 0,-2z M160,20l2,0 0,2 -2,0 0,-2z M26,22l2,0 0,2 -2,0 0,-2z M30,22l2,0 0,2 -2,0 0,-2z M36,22l2,0 0,2 -2,0 0,-2z M38,22l2,0 0,2 -2,0 0,-2z M42,22l2,0 0,2 -2,0 0,-2z M48,22l2,0 0,2 -2,0 0,-2z M56,22l2,0 0,2 -2,0 0,-2z M64,22l2,0 0,2 -2,0 0,-2z M66,22l2,0 0,2 -2,0 0,-2z M72,22l2,0 0,2 -2,0 0,-2z M84,22l2,0 0,2 -2,0 0,-2z M86,22l2,0 0,2 -2,0 0,-2z M88,22l2,0 0,2 -2,0 0,-2z M90,22l2,0 0,2 -2,0 0,-2z M94,22l2,0 0,2 -2,0 0,-2z M96,22l2,0 0,2 -2,0 0,-2z M100,22l2,0 0,2 -2,0 0,-2z M108,22l2,0 0,2 -2,0 0,-2z M112,22l2,0 0,2 -2,0 0,-2z M114,22l2,0 0,2 -2,0 0,-2z M120,22l2,0 0,2 -2,0 0,-2z M122,22l2,0 0,2 -2,0 0,-2z M124,22l2,0 0,2 -2,0 0,-2z M126,22l2,0 0,2 -2,0 0,-2z M128,22l2,0 0,2 -2,0 0,-2z M132,22l2,0 0,2 -2,0 0,-2z M142,22l2,0 0,2 -2,0 0,-2z M144,22l2,0 0,2 -2,0 0,-2z M10,24l2,0 0,2 -2,0 0,-2z M12,24l2,0 0,2 -2,0 0,-2z M14,24l2,0 0,2 -2,0 0,-2z M18,24l2,0 0,2 -2,0 0,-2z M20,24l2,0 0,2 -2,0 0,-2z M30,24l2,0 0,2 -2,0 0,-2z M32,24l2,0 0,2 -2,0 0,-2z M36,24l2,0 0,2 -2,0 0,-2z M42,24l2,0 0,2 -2,0 0,-2z M44,24l2,0 0,2 -2,0 0,-2z M52,24l2,0 0,2 -2,0 0,-2z M56,24l2,0 0,2 -2,0 0,-2z M58,24l2,0 0,2 -2,0 0,-2z M60,24l2,0 0,2 -2,0 0,-2z M62,24l2,0 0,2 -2,0 0,-2z M64,24l2,0 0,2 -2,0 0,-2z M70,24l2,0 0,2 -2,0 0,-2z M76,24l2,0 0,2 -2,0 0,-2z M80,24l2,0 0,2 -2,0 0,-2z M82,24l2,0 0,2 -2,0 0,-2z M84,24l2,0 0,2 -2,0 0,-2z M86,24l2,0 0,2 -2,0 0,-2z M88,24l2,0 0,2 -2,0 0,-2z M90,24l2,0 0,2 -2,0 0,-2z M94,24l2,0 0,2 -2,0 0,-2z M100,24l2,0 0,2 -2,0 0,-2z M102,24l2,0 0,2 -2,0 0,-2z M104,24l2,0 0,2 -2,0 0,-2z M106,24l2,0 0,2 -2,0 0,-2z M108,24l2,0 0,2 -2,0 0,-2z M110,24l2,0 0,2 -2,0 0,-2z M112,24l2,0 0,2 -2,0 0,-2z M118,24l2,0 0,2 -2,0 0,-2z M120,24l2,0 0,2 -2,0 0,-2z M122,24l2,0 0,2 -2,0 0,-2z M126,24l2,0 0,2 -2,0 0,-2z M130,24l2,0 0,2 -2,0 0,-2z M138,24l2,0 0,2 -2,0 0,-2z M140,24l2,0 0,2 -2,0 0,-2z M142,24l2,0 0,2 -2,0 0,-2z M144,24l2,0 0,2 -2,0 0,-2z M156,24l2,0 0,2 -2,0 0,-2z M158,24l2,0 0,2 -2,0 0,-2z M10,26l2,0 0,2 -2,0 0,-2z M12,26l2,0 0,2 -2,0 0,-2z M14,26l2,0 0,2 -2,0 0,-2z M22,26l2,0 0,2 -2,0 0,-2z M24,26l2,0 0,2 -2,0 0,-2z M26,26l2,0 0,2 -2,0 0,-2z M34,26l2,0 0,2 -2,0 0,-2z M40,26l2,0 0,2 -2,0 0,-2z M42,26l2,0 0,2 -2,0 0,-2z M44,26l2,0 0,2 -2,0 0,-2z M46,26l2,0 0,2 -2,0 0,-2z M48,26l2,0 0,2 -2,0 0,-2z M52,26l2,0 0,2 -2,0 0,-2z M62,26l2,0 0,2 -2,0 0,-2z M72,26l2,0 0,2 -2,0 0,-2z M80,26l2,0 0,2 -2,0 0,-2z M92,26l2,0 0,2 -2,0 0,-2z M94,26l2,0 0,2 -2,0 0,-2z M98,26l2,0 0,2 -2,0 0,-2z M100,26l2,0 0,2 -2,0 0,-2z M104,26l2,0 0,2 -2,0 0,-2z M108,26l2,0 0,2 -2,0 0,-2z M112,26l2,0 0,2 -2,0 0,-2z M126,26l2,0 0,2 -2,0 0,-2z M132,26l2,0 0,2 -2,0 0,-2z M134,26l2,0 0,2 -2,0 0,-2z M138,26l2,0 0,2 -2,0 0,-2z M140,26l2,0 0,2 -2,0 0,-2z M142,26l2,0 0,2 -2,0 0,-2z M152,26l2,0 0,2 -2,0 0,-2z M8,28l2,0 0,2 -2,0 0,-2z M10,28l2,0 0,2 -2,0 0,-2z M16,28l2,0 0,2 -2,0 0,-2z M18,28l2,0 0,2 -2,0 0,-2z M20,28l2,0 0,2 -2,0 0,-2z M24,28l2,0 0,2 -2,0 0,-2z M26,28l2,0 0,2 -2,0 0,-2z M28,28l2,0 0,2 -2,0 0,-2z M30,28l2,0 0,2 -2,0 0,-2z M34,28l2,0 0,2 -2,0 0,-2z M36,28l2,0 0,2 -2,0 0,-2z M38,28l2,0 0,2 -2,0 0,-2z M40,28l2,0 0,2 -2,0 0,-2z M42,28l2,0 0,2 -2,0 0,-2z M48,28l2,0 0,2 -2,0 0,-2z M56,28l2,0 0,2 -2,0 0,-2z M58,28l2,0 0,2 -2,0 0,-2z M62,28l2,0 0,2 -2,0 0,-2z M64,28l2,0 0,2 -2,0 0,-2z M66,28l2,0 0,2 -2,0 0,-2z M72,28l2,0 0,2 -2,0 0,-2z M74,28l2,0 0,2 -2,0 0,-2z M82,28l2,0 0,2 -2,0 0,-2z M88,28l2,0 0,2 -2,0 0,-2z M96,28l2,0 0,2 -2,0 0,-2z M102,28l2,0 0,2 -2,0 0,-2z M104,28l2,0 0,2 -2,0 0,-2z M106,28l2,0 0,2 -2,0 0,-2z M110,28l2,0 0,2 -2,0 0,-2z M112,28l2,0 0,2 -2,0 0,-2z M114,28l2,0 0,2 -2,0 0,-2z M120,28l2,0 0,2 -2,0 0,-2z M124,28l2,0 0,2 -2,0 0,-2z M132,28l2,0 0,2 -2,0 0,-2z M136,28l2,0 0,2 -2,0 0,-2z M138,28l2,0 0,2 -2,0 0,-2z M140,28l2,0 0,2 -2,0 0,-2z M142,28l2,0 0,2 -2,0 0,-2z M150,28l2,0 0,2 -2,0 0,-2z M154,28l2,0 0,2 -2,0 0,-2z M156,28l2,0 0,2 -2,0 0,-2z M8,30l2,0 0,2 -2,0 0,-2z M10,30l2,0 0,2 -2,0 0,-2z M12,30l2,0 0,2 -2,0 0,-2z M22,30l2,0 0,2 -2,0 0,-2z M24,30l2,0 0,2 -2,0 0,-2z M26,30l2,0 0,2 -2,0 0,-2z M28,30l2,0 0,2 -2,0 0,-2z M34,30l2,0 0,2 -2,0 0,-2z M38,30l2,0 0,2 -2,0 0,-2z M44,30l2,0 0,2 -2,0 0,-2z M46,30l2,0 0,2 -2,0 0,-2z M50,30l2,0 0,2 -2,0 0,-2z M52,30l2,0 0,2 -2,0 0,-2z M54,30l2,0 0,2 -2,0 0,-2z M56,30l2,0 0,2 -2,0 0,-2z M60,30l2,0 0,2 -2,0 0,-2z M68,30l2,0 0,2 -2,0 0,-2z M70,30l2,0 0,2 -2,0 0,-2z M74,30l2,0 0,2 -2,0 0,-2z M78,30l2,0 0,2 -2,0 0,-2z M82,30l2,0 0,2 -2,0 0,-2z M86,30l2,0 0,2 -2,0 0,-2z M90,30l2,0 0,2 -2,0 0,-2z M92,30l2,0 0,2 -2,0 0,-2z M94,30l2,0 0,2 -2,0 0,-2z M98,30l2,0 0,2 -2,0 0,-2z M112,30l2,0 0,2 -2,0 0,-2z M116,30l2,0 0,2 -2,0 0,-2z M118,30l2,0 0,2 -2,0 0,-2z M120,30l2,0 0,2 -2,0 0,-2z M124,30l2,0 0,2 -2,0 0,-2z M128,30l2,0 0,2 -2,0 0,-2z M132,30l2,0 0,2 -2,0 0,-2z M134,30l2,0 0,2 -2,0 0,-2z M144,30l2,0 0,2 -2,0 0,-2z M146,30l2,0 0,2 -2,0 0,-2z M148,30l2,0 0,2 -2,0 0,-2z M150,30l2,0 0,2 -2,0 0,-2z M152,30l2,0 0,2 -2,0 0,-2z M154,30l2,0 0,2 -2,0 0,-2z M158,30l2,0 0,2 -2,0 0,-2z M160,30l2,0 0,2 -2,0 0,-2z M10,32l2,0 0,2 -2,0 0,-2z M18,32l2,0 0,2 -2,0 0,-2z M20,32l2,0 0,2 -2,0 0,-2z M22,32l2,0 0,2 -2,0 0,-2z M24,32l2,0 0,2 -2,0 0,-2z M30,32l2,0 0,2 -2,0 0,-2z M34,32l2,0 0,2 -2,0 0,-2z M36,32l2,0 0,2 -2,0 0,-2z M46,32l2,0 0,2 -2,0 0,-2z M48,32l2,0 0,2 -2,0 0,-2z M50,32l2,0 0,2 -2,0 0,-2z M56,32l2,0 0,2 -2,0 0,-2z M58,32l2,0 0,2 -2,0 0,-2z M62,32l2,0 0,2 -2,0 0,-2z M66,32l2,0 0,2 -2,0 0,-2z M68,32l2,0 0,2 -2,0 0,-2z M72,32l2,0 0,2 -2,0 0,-2z M82,32l2,0 0,2 -2,0 0,-2z M84,32l2,0 0,2 -2,0 0,-2z M86,32l2,0 0,2 -2,0 0,-2z M88,32l2,0 0,2 -2,0 0,-2z M94,32l2,0 0,2 -2,0 0,-2z M96,32l2,0 0,2 -2,0 0,-2z M100,32l2,0 0,2 -2,0 0,-2z M104,32l2,0 0,2 -2,0 0,-2z M106,32l2,0 0,2 -2,0 0,-2z M108,32l2,0 0,2 -2,0 0,-2z M110,32l2,0 0,2 -2,0 0,-2z M112,32l2,0 0,2 -2,0 0,-2z M118,32l2,0 0,2 -2,0 0,-2z M122,32l2,0 0,2 -2,0 0,-2z M126,32l2,0 0,2 -2,0 0,-2z M128,32l2,0 0,2 -2,0 0,-2z M130,32l2,0 0,2 -2,0 0,-2z M132,32l2,0 0,2 -2,0 0,-2z M134,32l2,0 0,2 -2,0 0,-2z M136,32l2,0 0,2 -2,0 0,-2z M140,32l2,0 0,2 -2,0 0,-2z M142,32l2,0 0,2 -2,0 0,-2z M144,32l2,0 0,2 -2,0 0,-2z M154,32l2,0 0,2 -2,0 0,-2z M158,32l2,0 0,2 -2,0 0,-2z M10,34l2,0 0,2 -2,0 0,-2z M14,34l2,0 0,2 -2,0 0,-2z M16,34l2,0 0,2 -2,0 0,-2z M26,34l2,0 0,2 -2,0 0,-2z M32,34l2,0 0,2 -2,0 0,-2z M36,34l2,0 0,2 -2,0 0,-2z M40,34l2,0 0,2 -2,0 0,-2z M44,34l2,0 0,2 -2,0 0,-2z M52,34l2,0 0,2 -2,0 0,-2z M56,34l2,0 0,2 -2,0 0,-2z M58,34l2,0 0,2 -2,0 0,-2z M70,34l2,0 0,2 -2,0 0,-2z M72,34l2,0 0,2 -2,0 0,-2z M74,34l2,0 0,2 -2,0 0,-2z M78,34l2,0 0,2 -2,0 0,-2z M82,34l2,0 0,2 -2,0 0,-2z M88,34l2,0 0,2 -2,0 0,-2z M92,34l2,0 0,2 -2,0 0,-2z M98,34l2,0 0,2 -2,0 0,-2z M104,34l2,0 0,2 -2,0 0,-2z M114,34l2,0 0,2 -2,0 0,-2z M118,34l2,0 0,2 -2,0 0,-2z M124,34l2,0 0,2 -2,0 0,-2z M128,34l2,0 0,2 -2,0 0,-2z M130,34l2,0 0,2 -2,0 0,-2z M132,34l2,0 0,2 -2,0 0,-2z M138,34l2,0 0,2 -2,0 0,-2z M140,34l2,0 0,2 -2,0 0,-2z M152,34l2,0 0,2 -2,0 0,-2z M154,34l2,0 0,2 -2,0 0,-2z M158,34l2,0 0,2 -2,0 0,-2z M8,36l2,0 0,2 -2,0 0,-2z M10,36l2,0 0,2 -2,0 0,-2z M12,36l2,0 0,2 -2,0 0,-2z M16,36l2,0 0,2 -2,0 0,-2z M18,36l2,0 0,2 -2,0 0,-2z M20,36l2,0 0,2 -2,0 0,-2z M26,36l2,0 0,2 -2,0 0,-2z M28,36l2,0 0,2 -2,0 0,-2z M30,36l2,0 0,2 -2,0 0,-2z M32,36l2,0 0,2 -2,0 0,-2z M36,36l2,0 0,2 -2,0 0,-2z M38,36l2,0 0,2 -2,0 0,-2z M42,36l2,0 0,2 -2,0 0,-2z M46,36l2,0 0,2 -2,0 0,-2z M48,36l2,0 0,2 -2,0 0,-2z M52,36l2,0 0,2 -2,0 0,-2z M54,36l2,0 0,2 -2,0 0,-2z M56,36l2,0 0,2 -2,0 0,-2z M60,36l2,0 0,2 -2,0 0,-2z M66,36l2,0 0,2 -2,0 0,-2z M74,36l2,0 0,2 -2,0 0,-2z M76,36l2,0 0,2 -2,0 0,-2z M78,36l2,0 0,2 -2,0 0,-2z M82,36l2,0 0,2 -2,0 0,-2z M88,36l2,0 0,2 -2,0 0,-2z M96,36l2,0 0,2 -2,0 0,-2z M108,36l2,0 0,2 -2,0 0,-2z M112,36l2,0 0,2 -2,0 0,-2z M114,36l2,0 0,2 -2,0 0,-2z M120,36l2,0 0,2 -2,0 0,-2z M124,36l2,0 0,2 -2,0 0,-2z M126,36l2,0 0,2 -2,0 0,-2z M130,36l2,0 0,2 -2,0 0,-2z M132,36l2,0 0,2 -2,0 0,-2z M136,36l2,0 0,2 -2,0 0,-2z M142,36l2,0 0,2 -2,0 0,-2z M146,36l2,0 0,2 -2,0 0,-2z M148,36l2,0 0,2 -2,0 0,-2z M150,36l2,0 0,2 -2,0 0,-2z M154,36l2,0 0,2 -2,0 0,-2z M156,36l2,0 0,2 -2,0 0,-2z M160,36l2,0 0,2 -2,0 0,-2z M12,38l2,0 0,2 -2,0 0,-2z M22,38l2,0 0,2 -2,0 0,-2z M32,38l2,0 0,2 -2,0 0,-2z M36,38l2,0 0,2 -2,0 0,-2z M42,38l2,0 0,2 -2,0 0,-2z M44,38l2,0 0,2 -2,0 0,-2z M50,38l2,0 0,2 -2,0 0,-2z M54,38l2,0 0,2 -2,0 0,-2z M58,38l2,0 0,2 -2,0 0,-2z M60,38l2,0 0,2 -2,0 0,-2z M64,38l2,0 0,2 -2,0 0,-2z M66,38l2,0 0,2 -2,0 0,-2z M68,38l2,0 0,2 -2,0 0,-2z M70,38l2,0 0,2 -2,0 0,-2z M72,38l2,0 0,2 -2,0 0,-2z M76,38l2,0 0,2 -2,0 0,-2z M78,38l2,0 0,2 -2,0 0,-2z M80,38l2,0 0,2 -2,0 0,-2z M84,38l2,0 0,2 -2,0 0,-2z M88,38l2,0 0,2 -2,0 0,-2z M90,38l2,0 0,2 -2,0 0,-2z M94,38l2,0 0,2 -2,0 0,-2z M98,38l2,0 0,2 -2,0 0,-2z M106,38l2,0 0,2 -2,0 0,-2z M110,38l2,0 0,2 -2,0 0,-2z M112,38l2,0 0,2 -2,0 0,-2z M124,38l2,0 0,2 -2,0 0,-2z M136,38l2,0 0,2 -2,0 0,-2z M138,38l2,0 0,2 -2,0 0,-2z M142,38l2,0 0,2 -2,0 0,-2z M148,38l2,0 0,2 -2,0 0,-2z M152,38l2,0 0,2 -2,0 0,-2z M154,38l2,0 0,2 -2,0 0,-2z M156,38l2,0 0,2 -2,0 0,-2z M14,40l2,0 0,2 -2,0 0,-2z M16,40l2,0 0,2 -2,0 0,-2z M20,40l2,0 0,2 -2,0 0,-2z M24,40l2,0 0,2 -2,0 0,-2z M26,40l2,0 0,2 -2,0 0,-2z M32,40l2,0 0,2 -2,0 0,-2z M34,40l2,0 0,2 -2,0 0,-2z M36,40l2,0 0,2 -2,0 0,-2z M40,40l2,0 0,2 -2,0 0,-2z M44,40l2,0 0,2 -2,0 0,-2z M48,40l2,0 0,2 -2,0 0,-2z M54,40l2,0 0,2 -2,0 0,-2z M58,40l2,0 0,2 -2,0 0,-2z M60,40l2,0 0,2 -2,0 0,-2z M62,40l2,0 0,2 -2,0 0,-2z M66,40l2,0 0,2 -2,0 0,-2z M68,40l2,0 0,2 -2,0 0,-2z M70,40l2,0 0,2 -2,0 0,-2z M72,40l2,0 0,2 -2,0 0,-2z M74,40l2,0 0,2 -2,0 0,-2z M78,40l2,0 0,2 -2,0 0,-2z M80,40l2,0 0,2 -2,0 0,-2z M84,40l2,0 0,2 -2,0 0,-2z M86,40l2,0 0,2 -2,0 0,-2z M96,40l2,0 0,2 -2,0 0,-2z M102,40l2,0 0,2 -2,0 0,-2z M110,40l2,0 0,2 -2,0 0,-2z M114,40l2,0 0,2 -2,0 0,-2z M116,40l2,0 0,2 -2,0 0,-2z M122,40l2,0 0,2 -2,0 0,-2z M124,40l2,0 0,2 -2,0 0,-2z M132,40l2,0 0,2 -2,0 0,-2z M140,40l2,0 0,2 -2,0 0,-2z M142,40l2,0 0,2 -2,0 0,-2z M148,40l2,0 0,2 -2,0 0,-2z M156,40l2,0 0,2 -2,0 0,-2z M10,42l2,0 0,2 -2,0 0,-2z M12,42l2,0 0,2 -2,0 0,-2z M16,42l2,0 0,2 -2,0 0,-2z M24,42l2,0 0,2 -2,0 0,-2z M26,42l2,0 0,2 -2,0 0,-2z M28,42l2,0 0,2 -2,0 0,-2z M32,42l2,0 0,2 -2,0 0,-2z M38,42l2,0 0,2 -2,0 0,-2z M46,42l2,0 0,2 -2,0 0,-2z M50,42l2,0 0,2 -2,0 0,-2z M54,42l2,0 0,2 -2,0 0,-2z M58,42l2,0 0,2 -2,0 0,-2z M64,42l2,0 0,2 -2,0 0,-2z M72,42l2,0 0,2 -2,0 0,-2z M74,42l2,0 0,2 -2,0 0,-2z M76,42l2,0 0,2 -2,0 0,-2z M86,42l2,0 0,2 -2,0 0,-2z M88,42l2,0 0,2 -2,0 0,-2z M90,42l2,0 0,2 -2,0 0,-2z M92,42l2,0 0,2 -2,0 0,-2z M102,42l2,0 0,2 -2,0 0,-2z M104,42l2,0 0,2 -2,0 0,-2z M106,42l2,0 0,2 -2,0 0,-2z M110,42l2,0 0,2 -2,0 0,-2z M118,42l2,0 0,2 -2,0 0,-2z M122,42l2,0 0,2 -2,0 0,-2z M124,42l2,0 0,2 -2,0 0,-2z M126,42l2,0 0,2 -2,0 0,-2z M128,42l2,0 0,2 -2,0 0,-2z M130,42l2,0 0,2 -2,0 0,-2z M132,42l2,0 0,2 -2,0 0,-2z M134,42l2,0 0,2 -2,0 0,-2z M138,42l2,0 0,2 -2,0 0,-2z M142,42l2,0 0,2 -2,0 0,-2z M144,42l2,0 0,2 -2,0 0,-2z M146,42l2,0 0,2 -2,0 0,-2z M148,42l2,0 0,2 -2,0 0,-2z M154,42l2,0 0,2 -2,0 0,-2z M8,44l2,0 0,2 -2,0 0,-2z M10,44l2,0 0,2 -2,0 0,-2z M12,44l2,0 0,2 -2,0 0,-2z M14,44l2,0 0,2 -2,0 0,-2z M16,44l2,0 0,2 -2,0 0,-2z M20,44l2,0 0,2 -2,0 0,-2z M32,44l2,0 0,2 -2,0 0,-2z M34,44l2,0 0,2 -2,0 0,-2z M36,44l2,0 0,2 -2,0 0,-2z M40,44l2,0 0,2 -2,0 0,-2z M42,44l2,0 0,2 -2,0 0,-2z M46,44l2,0 0,2 -2,0 0,-2z M50,44l2,0 0,2 -2,0 0,-2z M54,44l2,0 0,2 -2,0 0,-2z M56,44l2,0 0,2 -2,0 0,-2z M64,44l2,0 0,2 -2,0 0,-2z M68,44l2,0 0,2 -2,0 0,-2z M78,44l2,0 0,2 -2,0 0,-2z M80,44l2,0 0,2 -2,0 0,-2z M82,44l2,0 0,2 -2,0 0,-2z M86,44l2,0 0,2 -2,0 0,-2z M88,44l2,0 0,2 -2,0 0,-2z M90,44l2,0 0,2 -2,0 0,-2z M98,44l2,0 0,2 -2,0 0,-2z M104,44l2,0 0,2 -2,0 0,-2z M112,44l2,0 0,2 -2,0 0,-2z M114,44l2,0 0,2 -2,0 0,-2z M116,44l2,0 0,2 -2,0 0,-2z M120,44l2,0 0,2 -2,0 0,-2z M122,44l2,0 0,2 -2,0 0,-2z M124,44l2,0 0,2 -2,0 0,-2z M126,44l2,0 0,2 -2,0 0,-2z M134,44l2,0 0,2 -2,0 0,-2z M142,44l2,0 0,2 -2,0 0,-2z M144,44l2,0 0,2 -2,0 0,-2z M152,44l2,0 0,2 -2,0 0,-2z M154,44l2,0 0,2 -2,0 0,-2z M10,46l2,0 0,2 -2,0 0,-2z M16,46l2,0 0,2 -2,0 0,-2z M18,46l2,0 0,2 -2,0 0,-2z M26,46l2,0 0,2 -2,0 0,-2z M28,46l2,0 0,2 -2,0 0,-2z M30,46l2,0 0,2 -2,0 0,-2z M38,46l2,0 0,2 -2,0 0,-2z M40,46l2,0 0,2 -2,0 0,-2z M46,46l2,0 0,2 -2,0 0,-2z M48,46l2,0 0,2 -2,0 0,-2z M50,46l2,0 0,2 -2,0 0,-2z M58,46l2,0 0,2 -2,0 0,-2z M64,46l2,0 0,2 -2,0 0,-2z M66,46l2,0 0,2 -2,0 0,-2z M68,46l2,0 0,2 -2,0 0,-2z M72,46l2,0 0,2 -2,0 0,-2z M74,46l2,0 0,2 -2,0 0,-2z M86,46l2,0 0,2 -2,0 0,-2z M88,46l2,0 0,2 -2,0 0,-2z M90,46l2,0 0,2 -2,0 0,-2z M96,46l2,0 0,2 -2,0 0,-2z M98,46l2,0 0,2 -2,0 0,-2z M100,46l2,0 0,2 -2,0 0,-2z M102,46l2,0 0,2 -2,0 0,-2z M104,46l2,0 0,2 -2,0 0,-2z M108,46l2,0 0,2 -2,0 0,-2z M120,46l2,0 0,2 -2,0 0,-2z M128,46l2,0 0,2 -2,0 0,-2z M130,46l2,0 0,2 -2,0 0,-2z M134,46l2,0 0,2 -2,0 0,-2z M138,46l2,0 0,2 -2,0 0,-2z M142,46l2,0 0,2 -2,0 0,-2z M148,46l2,0 0,2 -2,0 0,-2z M152,46l2,0 0,2 -2,0 0,-2z M156,46l2,0 0,2 -2,0 0,-2z M158,46l2,0 0,2 -2,0 0,-2z M160,46l2,0 0,2 -2,0 0,-2z M8,48l2,0 0,2 -2,0 0,-2z M10,48l2,0 0,2 -2,0 0,-2z M14,48l2,0 0,2 -2,0 0,-2z M16,48l2,0 0,2 -2,0 0,-2z M18,48l2,0 0,2 -2,0 0,-2z M20,48l2,0 0,2 -2,0 0,-2z M24,48l2,0 0,2 -2,0 0,-2z M26,48l2,0 0,2 -2,0 0,-2z M30,48l2,0 0,2 -2,0 0,-2z M32,48l2,0 0,2 -2,0 0,-2z M38,48l2,0 0,2 -2,0 0,-2z M40,48l2,0 0,2 -2,0 0,-2z M42,48l2,0 0,2 -2,0 0,-2z M44,48l2,0 0,2 -2,0 0,-2z M46,48l2,0 0,2 -2,0 0,-2z M52,48l2,0 0,2 -2,0 0,-2z M60,48l2,0 0,2 -2,0 0,-2z M64,48l2,0 0,2 -2,0 0,-2z M66,48l2,0 0,2 -2,0 0,-2z M70,48l2,0 0,2 -2,0 0,-2z M72,48l2,0 0,2 -2,0 0,-2z M74,48l2,0 0,2 -2,0 0,-2z M76,48l2,0 0,2 -2,0 0,-2z M80,48l2,0 0,2 -2,0 0,-2z M82,48l2,0 0,2 -2,0 0,-2z M96,48l2,0 0,2 -2,0 0,-2z M98,48l2,0 0,2 -2,0 0,-2z M106,48l2,0 0,2 -2,0 0,-2z M118,48l2,0 0,2 -2,0 0,-2z M120,48l2,0 0,2 -2,0 0,-2z M128,48l2,0 0,2 -2,0 0,-2z M132,48l2,0 0,2 -2,0 0,-2z M144,48l2,0 0,2 -2,0 0,-2z M148,48l2,0 0,2 -2,0 0,-2z M152,48l2,0 0,2 -2,0 0,-2z M158,48l2,0 0,2 -2,0 0,-2z M8,50l2,0 0,2 -2,0 0,-2z M12,50l2,0 0,2 -2,0 0,-2z M16,50l2,0 0,2 -2,0 0,-2z M18,50l2,0 0,2 -2,0 0,-2z M28,50l2,0 0,2 -2,0 0,-2z M30,50l2,0 0,2 -2,0 0,-2z M34,50l2,0 0,2 -2,0 0,-2z M36,50l2,0 0,2 -2,0 0,-2z M38,50l2,0 0,2 -2,0 0,-2z M40,50l2,0 0,2 -2,0 0,-2z M42,50l2,0 0,2 -2,0 0,-2z M50,50l2,0 0,2 -2,0 0,-2z M52,50l2,0 0,2 -2,0 0,-2z M56,50l2,0 0,2 -2,0 0,-2z M58,50l2,0 0,2 -2,0 0,-2z M60,50l2,0 0,2 -2,0 0,-2z M62,50l2,0 0,2 -2,0 0,-2z M66,50l2,0 0,2 -2,0 0,-2z M68,50l2,0 0,2 -2,0 0,-2z M70,50l2,0 0,2 -2,0 0,-2z M76,50l2,0 0,2 -2,0 0,-2z M80,50l2,0 0,2 -2,0 0,-2z M82,50l2,0 0,2 -2,0 0,-2z M84,50l2,0 0,2 -2,0 0,-2z M86,50l2,0 0,2 -2,0 0,-2z M88,50l2,0 0,2 -2,0 0,-2z M90,50l2,0 0,2 -2,0 0,-2z M96,50l2,0 0,2 -2,0 0,-2z M108,50l2,0 0,2 -2,0 0,-2z M110,50l2,0 0,2 -2,0 0,-2z M116,50l2,0 0,2 -2,0 0,-2z M122,50l2,0 0,2 -2,0 0,-2z M124,50l2,0 0,2 -2,0 0,-2z M128,50l2,0 0,2 -2,0 0,-2z M130,50l2,0 0,2 -2,0 0,-2z M136,50l2,0 0,2 -2,0 0,-2z M146,50l2,0 0,2 -2,0 0,-2z M148,50l2,0 0,2 -2,0 0,-2z M150,50l2,0 0,2 -2,0 0,-2z M154,50l2,0 0,2 -2,0 0,-2z M156,50l2,0 0,2 -2,0 0,-2z M160,50l2,0 0,2 -2,0 0,-2z M8,52l2,0 0,2 -2,0 0,-2z M20,52l2,0 0,2 -2,0 0,-2z M22,52l2,0 0,2 -2,0 0,-2z M24,52l2,0 0,2 -2,0 0,-2z M26,52l2,0 0,2 -2,0 0,-2z M32,52l2,0 0,2 -2,0 0,-2z M34,52l2,0 0,2 -2,0 0,-2z M36,52l2,0 0,2 -2,0 0,-2z M38,52l2,0 0,2 -2,0 0,-2z M40,52l2,0 0,2 -2,0 0,-2z M44,52l2,0 0,2 -2,0 0,-2z M46,52l2,0 0,2 -2,0 0,-2z M48,52l2,0 0,2 -2,0 0,-2z M56,52l2,0 0,2 -2,0 0,-2z M60,52l2,0 0,2 -2,0 0,-2z M64,52l2,0 0,2 -2,0 0,-2z M70,52l2,0 0,2 -2,0 0,-2z M72,52l2,0 0,2 -2,0 0,-2z M82,52l2,0 0,2 -2,0 0,-2z M90,52l2,0 0,2 -2,0 0,-2z M92,52l2,0 0,2 -2,0 0,-2z M94,52l2,0 0,2 -2,0 0,-2z M100,52l2,0 0,2 -2,0 0,-2z M108,52l2,0 0,2 -2,0 0,-2z M116,52l2,0 0,2 -2,0 0,-2z M122,52l2,0 0,2 -2,0 0,-2z M124,52l2,0 0,2 -2,0 0,-2z M126,52l2,0 0,2 -2,0 0,-2z M128,52l2,0 0,2 -2,0 0,-2z M134,52l2,0 0,2 -2,0 0,-2z M138,52l2,0 0,2 -2,0 0,-2z M144,52l2,0 0,2 -2,0 0,-2z M146,52l2,0 0,2 -2,0 0,-2z M158,52l2,0 0,2 -2,0 0,-2z M12,54l2,0 0,2 -2,0 0,-2z M14,54l2,0 0,2 -2,0 0,-2z M16,54l2,0 0,2 -2,0 0,-2z M22,54l2,0 0,2 -2,0 0,-2z M34,54l2,0 0,2 -2,0 0,-2z M36,54l2,0 0,2 -2,0 0,-2z M38,54l2,0 0,2 -2,0 0,-2z M40,54l2,0 0,2 -2,0 0,-2z M42,54l2,0 0,2 -2,0 0,-2z M44,54l2,0 0,2 -2,0 0,-2z M48,54l2,0 0,2 -2,0 0,-2z M50,54l2,0 0,2 -2,0 0,-2z M52,54l2,0 0,2 -2,0 0,-2z M60,54l2,0 0,2 -2,0 0,-2z M62,54l2,0 0,2 -2,0 0,-2z M66,54l2,0 0,2 -2,0 0,-2z M72,54l2,0 0,2 -2,0 0,-2z M74,54l2,0 0,2 -2,0 0,-2z M76,54l2,0 0,2 -2,0 0,-2z M78,54l2,0 0,2 -2,0 0,-2z M82,54l2,0 0,2 -2,0 0,-2z M84,54l2,0 0,2 -2,0 0,-2z M86,54l2,0 0,2 -2,0 0,-2z M92,54l2,0 0,2 -2,0 0,-2z M100,54l2,0 0,2 -2,0 0,-2z M102,54l2,0 0,2 -2,0 0,-2z M104,54l2,0 0,2 -2,0 0,-2z M106,54l2,0 0,2 -2,0 0,-2z M108,54l2,0 0,2 -2,0 0,-2z M114,54l2,0 0,2 -2,0 0,-2z M116,54l2,0 0,2 -2,0 0,-2z M118,54l2,0 0,2 -2,0 0,-2z M124,54l2,0 0,2 -2,0 0,-2z M126,54l2,0 0,2 -2,0 0,-2z M128,54l2,0 0,2 -2,0 0,-2z M130,54l2,0 0,2 -2,0 0,-2z M138,54l2,0 0,2 -2,0 0,-2z M140,54l2,0 0,2 -2,0 0,-2z M142,54l2,0 0,2 -2,0 0,-2z M144,54l2,0 0,2 -2,0 0,-2z M156,54l2,0 0,2 -2,0 0,-2z M158,54l2,0 0,2 -2,0 0,-2z M8,56l2,0 0,2 -2,0 0,-2z M10,56l2,0 0,2 -2,0 0,-2z M12,56l2,0 0,2 -2,0 0,-2z M16,56l2,0 0,2 -2,0 0,-2z M18,56l2,0 0,2 -2,0 0,-2z M20,56l2,0 0,2 -2,0 0,-2z M22,56l2,0 0,2 -2,0 0,-2z M24,56l2,0 0,2 -2,0 0,-2z M26,56l2,0 0,2 -2,0 0,-2z M28,56l2,0 0,2 -2,0 0,-2z M30,56l2,0 0,2 -2,0 0,-2z M34,56l2,0 0,2 -2,0 0,-2z M38,56l2,0 0,2 -2,0 0,-2z M50,56l2,0 0,2 -2,0 0,-2z M56,56l2,0 0,2 -2,0 0,-2z M58,56l2,0 0,2 -2,0 0,-2z M60,56l2,0 0,2 -2,0 0,-2z M62,56l2,0 0,2 -2,0 0,-2z M64,56l2,0 0,2 -2,0 0,-2z M70,56l2,0 0,2 -2,0 0,-2z M74,56l2,0 0,2 -2,0 0,-2z M86,56l2,0 0,2 -2,0 0,-2z M90,56l2,0 0,2 -2,0 0,-2z M92,56l2,0 0,2 -2,0 0,-2z M98,56l2,0 0,2 -2,0 0,-2z M100,56l2,0 0,2 -2,0 0,-2z M102,56l2,0 0,2 -2,0 0,-2z M104,56l2,0 0,2 -2,0 0,-2z M106,56l2,0 0,2 -2,0 0,-2z M108,56l2,0 0,2 -2,0 0,-2z M114,56l2,0 0,2 -2,0 0,-2z M120,56l2,0 0,2 -2,0 0,-2z M138,56l2,0 0,2 -2,0 0,-2z M144,56l2,0 0,2 -2,0 0,-2z M146,56l2,0 0,2 -2,0 0,-2z M148,56l2,0 0,2 -2,0 0,-2z M150,56l2,0 0,2 -2,0 0,-2z M152,56l2,0 0,2 -2,0 0,-2z M158,56l2,0 0,2 -2,0 0,-2z M160,56l2,0 0,2 -2,0 0,-2z M8,58l2,0 0,2 -2,0 0,-2z M10,58l2,0 0,2 -2,0 0,-2z M16,58l2,0 0,2 -2,0 0,-2z M24,58l2,0 0,2 -2,0 0,-2z M30,58l2,0 0,2 -2,0 0,-2z M32,58l2,0 0,2 -2,0 0,-2z M34,58l2,0 0,2 -2,0 0,-2z M40,58l2,0 0,2 -2,0 0,-2z M42,58l2,0 0,2 -2,0 0,-2z M44,58l2,0 0,2 -2,0 0,-2z M48,58l2,0 0,2 -2,0 0,-2z M50,58l2,0 0,2 -2,0 0,-2z M52,58l2,0 0,2 -2,0 0,-2z M56,58l2,0 0,2 -2,0 0,-2z M64,58l2,0 0,2 -2,0 0,-2z M66,58l2,0 0,2 -2,0 0,-2z M70,58l2,0 0,2 -2,0 0,-2z M74,58l2,0 0,2 -2,0 0,-2z M78,58l2,0 0,2 -2,0 0,-2z M82,58l2,0 0,2 -2,0 0,-2z M86,58l2,0 0,2 -2,0 0,-2z M92,58l2,0 0,2 -2,0 0,-2z M94,58l2,0 0,2 -2,0 0,-2z M96,58l2,0 0,2 -2,0 0,-2z M100,58l2,0 0,2 -2,0 0,-2z M108,58l2,0 0,2 -2,0 0,-2z M110,58l2,0 0,2 -2,0 0,-2z M112,58l2,0 0,2 -2,0 0,-2z M120,58l2,0 0,2 -2,0 0,-2z M134,58l2,0 0,2 -2,0 0,-2z M136,58l2,0 0,2 -2,0 0,-2z M144,58l2,0 0,2 -2,0 0,-2z M152,58l2,0 0,2 -2,0 0,-2z M156,58l2,0 0,2 -2,0 0,-2z M12,60l2,0 0,2 -2,0 0,-2z M16,60l2,0 0,2 -2,0 0,-2z M20,60l2,0 0,2 -2,0 0,-2z M24,60l2,0 0,2 -2,0 0,-2z M26,60l2,0 0,2 -2,0 0,-2z M28,60l2,0 0,2 -2,0 0,-2z M40,60l2,0 0,2 -2,0 0,-2z M42,60l2,0 0,2 -2,0 0,-2z M44,60l2,0 0,2 -2,0 0,-2z M46,60l2,0 0,2 -2,0 0,-2z M50,60l2,0 0,2 -2,0 0,-2z M52,60l2,0 0,2 -2,0 0,-2z M54,60l2,0 0,2 -2,0 0,-2z M56,60l2,0 0,2 -2,0 0,-2z M60,60l2,0 0,2 -2,0 0,-2z M64,60l2,0 0,2 -2,0 0,-2z M70,60l2,0 0,2 -2,0 0,-2z M76,60l2,0 0,2 -2,0 0,-2z M78,60l2,0 0,2 -2,0 0,-2z M84,60l2,0 0,2 -2,0 0,-2z M86,60l2,0 0,2 -2,0 0,-2z M88,60l2,0 0,2 -2,0 0,-2z M92,60l2,0 0,2 -2,0 0,-2z M94,60l2,0 0,2 -2,0 0,-2z M98,60l2,0 0,2 -2,0 0,-2z M100,60l2,0 0,2 -2,0 0,-2z M104,60l2,0 0,2 -2,0 0,-2z M108,60l2,0 0,2 -2,0 0,-2z M110,60l2,0 0,2 -2,0 0,-2z M112,60l2,0 0,2 -2,0 0,-2z M116,60l2,0 0,2 -2,0 0,-2z M118,60l2,0 0,2 -2,0 0,-2z M122,60l2,0 0,2 -2,0 0,-2z M130,60l2,0 0,2 -2,0 0,-2z M134,60l2,0 0,2 -2,0 0,-2z M140,60l2,0 0,2 -2,0 0,-2z M142,60l2,0 0,2 -2,0 0,-2z M144,60l2,0 0,2 -2,0 0,-2z M148,60l2,0 0,2 -2,0 0,-2z M152,60l2,0 0,2 -2,0 0,-2z M158,60l2,0 0,2 -2,0 0,-2z M160,60l2,0 0,2 -2,0 0,-2z M8,62l2,0 0,2 -2,0 0,-2z M12,62l2,0 0,2 -2,0 0,-2z M14,62l2,0 0,2 -2,0 0,-2z M16,62l2,0 0,2 -2,0 0,-2z M24,62l2,0 0,2 -2,0 0,-2z M28,62l2,0 0,2 -2,0 0,-2z M32,62l2,0 0,2 -2,0 0,-2z M36,62l2,0 0,2 -2,0 0,-2z M38,62l2,0 0,2 -2,0 0,-2z M44,62l2,0 0,2 -2,0 0,-2z M52,62l2,0 0,2 -2,0 0,-2z M56,62l2,0 0,2 -2,0 0,-2z M64,62l2,0 0,2 -2,0 0,-2z M78,62l2,0 0,2 -2,0 0,-2z M80,62l2,0 0,2 -2,0 0,-2z M88,62l2,0 0,2 -2,0 0,-2z M90,62l2,0 0,2 -2,0 0,-2z M98,62l2,0 0,2 -2,0 0,-2z M100,62l2,0 0,2 -2,0 0,-2z M108,62l2,0 0,2 -2,0 0,-2z M110,62l2,0 0,2 -2,0 0,-2z M112,62l2,0 0,2 -2,0 0,-2z M114,62l2,0 0,2 -2,0 0,-2z M116,62l2,0 0,2 -2,0 0,-2z M118,62l2,0 0,2 -2,0 0,-2z M120,62l2,0 0,2 -2,0 0,-2z M126,62l2,0 0,2 -2,0 0,-2z M130,62l2,0 0,2 -2,0 0,-2z M132,62l2,0 0,2 -2,0 0,-2z M134,62l2,0 0,2 -2,0 0,-2z M140,62l2,0 0,2 -2,0 0,-2z M142,62l2,0 0,2 -2,0 0,-2z M144,62l2,0 0,2 -2,0 0,-2z M152,62l2,0 0,2 -2,0 0,-2z M158,62l2,0 0,2 -2,0 0,-2z M12,64l2,0 0,2 -2,0 0,-2z M14,64l2,0 0,2 -2,0 0,-2z M16,64l2,0 0,2 -2,0 0,-2z M18,64l2,0 0,2 -2,0 0,-2z M20,64l2,0 0,2 -2,0 0,-2z M22,64l2,0 0,2 -2,0 0,-2z M24,64l2,0 0,2 -2,0 0,-2z M26,64l2,0 0,2 -2,0 0,-2z M28,64l2,0 0,2 -2,0 0,-2z M32,64l2,0 0,2 -2,0 0,-2z M34,64l2,0 0,2 -2,0 0,-2z M46,64l2,0 0,2 -2,0 0,-2z M48,64l2,0 0,2 -2,0 0,-2z M50,64l2,0 0,2 -2,0 0,-2z M52,64l2,0 0,2 -2,0 0,-2z M54,64l2,0 0,2 -2,0 0,-2z M56,64l2,0 0,2 -2,0 0,-2z M58,64l2,0 0,2 -2,0 0,-2z M60,64l2,0 0,2 -2,0 0,-2z M62,64l2,0 0,2 -2,0 0,-2z M64,64l2,0 0,2 -2,0 0,-2z M74,64l2,0 0,2 -2,0 0,-2z M78,64l2,0 0,2 -2,0 0,-2z M80,64l2,0 0,2 -2,0 0,-2z M84,64l2,0 0,2 -2,0 0,-2z M92,64l2,0 0,2 -2,0 0,-2z M94,64l2,0 0,2 -2,0 0,-2z M100,64l2,0 0,2 -2,0 0,-2z M102,64l2,0 0,2 -2,0 0,-2z M104,64l2,0 0,2 -2,0 0,-2z M106,64l2,0 0,2 -2,0 0,-2z M108,64l2,0 0,2 -2,0 0,-2z M110,64l2,0 0,2 -2,0 0,-2z M116,64l2,0 0,2 -2,0 0,-2z M120,64l2,0 0,2 -2,0 0,-2z M126,64l2,0 0,2 -2,0 0,-2z M130,64l2,0 0,2 -2,0 0,-2z M136,64l2,0 0,2 -2,0 0,-2z M138,64l2,0 0,2 -2,0 0,-2z M144,64l2,0 0,2 -2,0 0,-2z M146,64l2,0 0,2 -2,0 0,-2z M148,64l2,0 0,2 -2,0 0,-2z M150,64l2,0 0,2 -2,0 0,-2z M152,64l2,0 0,2 -2,0 0,-2z M154,64l2,0 0,2 -2,0 0,-2z M156,64l2,0 0,2 -2,0 0,-2z M10,66l2,0 0,2 -2,0 0,-2z M12,66l2,0 0,2 -2,0 0,-2z M16,66l2,0 0,2 -2,0 0,-2z M18,66l2,0 0,2 -2,0 0,-2z M22,66l2,0 0,2 -2,0 0,-2z M24,66l2,0 0,2 -2,0 0,-2z M26,66l2,0 0,2 -2,0 0,-2z M30,66l2,0 0,2 -2,0 0,-2z M32,66l2,0 0,2 -2,0 0,-2z M44,66l2,0 0,2 -2,0 0,-2z M48,66l2,0 0,2 -2,0 0,-2z M50,66l2,0 0,2 -2,0 0,-2z M54,66l2,0 0,2 -2,0 0,-2z M56,66l2,0 0,2 -2,0 0,-2z M60,66l2,0 0,2 -2,0 0,-2z M62,66l2,0 0,2 -2,0 0,-2z M64,66l2,0 0,2 -2,0 0,-2z M66,66l2,0 0,2 -2,0 0,-2z M74,66l2,0 0,2 -2,0 0,-2z M82,66l2,0 0,2 -2,0 0,-2z M84,66l2,0 0,2 -2,0 0,-2z M86,66l2,0 0,2 -2,0 0,-2z M88,66l2,0 0,2 -2,0 0,-2z M90,66l2,0 0,2 -2,0 0,-2z M92,66l2,0 0,2 -2,0 0,-2z M94,66l2,0 0,2 -2,0 0,-2z M96,66l2,0 0,2 -2,0 0,-2z M98,66l2,0 0,2 -2,0 0,-2z M100,66l2,0 0,2 -2,0 0,-2z M102,66l2,0 0,2 -2,0 0,-2z M104,66l2,0 0,2 -2,0 0,-2z M106,66l2,0 0,2 -2,0 0,-2z M110,66l2,0 0,2 -2,0 0,-2z M114,66l2,0 0,2 -2,0 0,-2z M120,66l2,0 0,2 -2,0 0,-2z M128,66l2,0 0,2 -2,0 0,-2z M130,66l2,0 0,2 -2,0 0,-2z M132,66l2,0 0,2 -2,0 0,-2z M136,66l2,0 0,2 -2,0 0,-2z M140,66l2,0 0,2 -2,0 0,-2z M142,66l2,0 0,2 -2,0 0,-2z M146,66l2,0 0,2 -2,0 0,-2z M150,66l2,0 0,2 -2,0 0,-2z M156,66l2,0 0,2 -2,0 0,-2z M160,66l2,0 0,2 -2,0 0,-2z M8,68l2,0 0,2 -2,0 0,-2z M12,68l2,0 0,2 -2,0 0,-2z M16,68l2,0 0,2 -2,0 0,-2z M18,68l2,0 0,2 -2,0 0,-2z M20,68l2,0 0,2 -2,0 0,-2z M30,68l2,0 0,2 -2,0 0,-2z M34,68l2,0 0,2 -2,0 0,-2z M38,68l2,0 0,2 -2,0 0,-2z M42,68l2,0 0,2 -2,0 0,-2z M52,68l2,0 0,2 -2,0 0,-2z M58,68l2,0 0,2 -2,0 0,-2z M60,68l2,0 0,2 -2,0 0,-2z M62,68l2,0 0,2 -2,0 0,-2z M66,68l2,0 0,2 -2,0 0,-2z M68,68l2,0 0,2 -2,0 0,-2z M70,68l2,0 0,2 -2,0 0,-2z M74,68l2,0 0,2 -2,0 0,-2z M78,68l2,0 0,2 -2,0 0,-2z M80,68l2,0 0,2 -2,0 0,-2z M92,68l2,0 0,2 -2,0 0,-2z M94,68l2,0 0,2 -2,0 0,-2z M96,68l2,0 0,2 -2,0 0,-2z M100,68l2,0 0,2 -2,0 0,-2z M104,68l2,0 0,2 -2,0 0,-2z M108,68l2,0 0,2 -2,0 0,-2z M118,68l2,0 0,2 -2,0 0,-2z M120,68l2,0 0,2 -2,0 0,-2z M124,68l2,0 0,2 -2,0 0,-2z M126,68l2,0 0,2 -2,0 0,-2z M130,68l2,0 0,2 -2,0 0,-2z M132,68l2,0 0,2 -2,0 0,-2z M134,68l2,0 0,2 -2,0 0,-2z M140,68l2,0 0,2 -2,0 0,-2z M146,68l2,0 0,2 -2,0 0,-2z M148,68l2,0 0,2 -2,0 0,-2z M152,68l2,0 0,2 -2,0 0,-2z M156,68l2,0 0,2 -2,0 0,-2z M160,68l2,0 0,2 -2,0 0,-2z M8,70l2,0 0,2 -2,0 0,-2z M12,70l2,0 0,2 -2,0 0,-2z M14,70l2,0 0,2 -2,0 0,-2z M16,70l2,0 0,2 -2,0 0,-2z M22,70l2,0 0,2 -2,0 0,-2z M24,70l2,0 0,2 -2,0 0,-2z M28,70l2,0 0,2 -2,0 0,-2z M30,70l2,0 0,2 -2,0 0,-2z M32,70l2,0 0,2 -2,0 0,-2z M34,70l2,0 0,2 -2,0 0,-2z M42,70l2,0 0,2 -2,0 0,-2z M46,70l2,0 0,2 -2,0 0,-2z M48,70l2,0 0,2 -2,0 0,-2z M50,70l2,0 0,2 -2,0 0,-2z M52,70l2,0 0,2 -2,0 0,-2z M54,70l2,0 0,2 -2,0 0,-2z M58,70l2,0 0,2 -2,0 0,-2z M62,70l2,0 0,2 -2,0 0,-2z M64,70l2,0 0,2 -2,0 0,-2z M70,70l2,0 0,2 -2,0 0,-2z M74,70l2,0 0,2 -2,0 0,-2z M78,70l2,0 0,2 -2,0 0,-2z M80,70l2,0 0,2 -2,0 0,-2z M82,70l2,0 0,2 -2,0 0,-2z M84,70l2,0 0,2 -2,0 0,-2z M92,70l2,0 0,2 -2,0 0,-2z M94,70l2,0 0,2 -2,0 0,-2z M96,70l2,0 0,2 -2,0 0,-2z M100,70l2,0 0,2 -2,0 0,-2z M102,70l2,0 0,2 -2,0 0,-2z M104,70l2,0 0,2 -2,0 0,-2z M108,70l2,0 0,2 -2,0 0,-2z M112,70l2,0 0,2 -2,0 0,-2z M118,70l2,0 0,2 -2,0 0,-2z M124,70l2,0 0,2 -2,0 0,-2z M126,70l2,0 0,2 -2,0 0,-2z M132,70l2,0 0,2 -2,0 0,-2z M136,70l2,0 0,2 -2,0 0,-2z M140,70l2,0 0,2 -2,0 0,-2z M142,70l2,0 0,2 -2,0 0,-2z M146,70l2,0 0,2 -2,0 0,-2z M148,70l2,0 0,2 -2,0 0,-2z M150,70l2,0 0,2 -2,0 0,-2z M154,70l2,0 0,2 -2,0 0,-2z M160,70l2,0 0,2 -2,0 0,-2z M10,72l2,0 0,2 -2,0 0,-2z M12,72l2,0 0,2 -2,0 0,-2z M16,72l2,0 0,2 -2,0 0,-2z M20,72l2,0 0,2 -2,0 0,-2z M22,72l2,0 0,2 -2,0 0,-2z M30,72l2,0 0,2 -2,0 0,-2z M32,72l2,0 0,2 -2,0 0,-2z M34,72l2,0 0,2 -2,0 0,-2z M42,72l2,0 0,2 -2,0 0,-2z M50,72l2,0 0,2 -2,0 0,-2z M56,72l2,0 0,2 -2,0 0,-2z M68,72l2,0 0,2 -2,0 0,-2z M76,72l2,0 0,2 -2,0 0,-2z M78,72l2,0 0,2 -2,0 0,-2z M84,72l2,0 0,2 -2,0 0,-2z M90,72l2,0 0,2 -2,0 0,-2z M92,72l2,0 0,2 -2,0 0,-2z M94,72l2,0 0,2 -2,0 0,-2z M98,72l2,0 0,2 -2,0 0,-2z M106,72l2,0 0,2 -2,0 0,-2z M108,72l2,0 0,2 -2,0 0,-2z M110,72l2,0 0,2 -2,0 0,-2z M112,72l2,0 0,2 -2,0 0,-2z M114,72l2,0 0,2 -2,0 0,-2z M116,72l2,0 0,2 -2,0 0,-2z M118,72l2,0 0,2 -2,0 0,-2z M124,72l2,0 0,2 -2,0 0,-2z M128,72l2,0 0,2 -2,0 0,-2z M130,72l2,0 0,2 -2,0 0,-2z M134,72l2,0 0,2 -2,0 0,-2z M136,72l2,0 0,2 -2,0 0,-2z M138,72l2,0 0,2 -2,0 0,-2z M140,72l2,0 0,2 -2,0 0,-2z M142,72l2,0 0,2 -2,0 0,-2z M144,72l2,0 0,2 -2,0 0,-2z M148,72l2,0 0,2 -2,0 0,-2z M150,72l2,0 0,2 -2,0 0,-2z M152,72l2,0 0,2 -2,0 0,-2z M154,72l2,0 0,2 -2,0 0,-2z M158,72l2,0 0,2 -2,0 0,-2z M8,74l2,0 0,2 -2,0 0,-2z M12,74l2,0 0,2 -2,0 0,-2z M14,74l2,0 0,2 -2,0 0,-2z M24,74l2,0 0,2 -2,0 0,-2z M26,74l2,0 0,2 -2,0 0,-2z M30,74l2,0 0,2 -2,0 0,-2z M32,74l2,0 0,2 -2,0 0,-2z M34,74l2,0 0,2 -2,0 0,-2z M36,74l2,0 0,2 -2,0 0,-2z M50,74l2,0 0,2 -2,0 0,-2z M52,74l2,0 0,2 -2,0 0,-2z M54,74l2,0 0,2 -2,0 0,-2z M60,74l2,0 0,2 -2,0 0,-2z M62,74l2,0 0,2 -2,0 0,-2z M68,74l2,0 0,2 -2,0 0,-2z M70,74l2,0 0,2 -2,0 0,-2z M72,74l2,0 0,2 -2,0 0,-2z M80,74l2,0 0,2 -2,0 0,-2z M82,74l2,0 0,2 -2,0 0,-2z M84,74l2,0 0,2 -2,0 0,-2z M86,74l2,0 0,2 -2,0 0,-2z M88,74l2,0 0,2 -2,0 0,-2z M90,74l2,0 0,2 -2,0 0,-2z M94,74l2,0 0,2 -2,0 0,-2z M98,74l2,0 0,2 -2,0 0,-2z M104,74l2,0 0,2 -2,0 0,-2z M112,74l2,0 0,2 -2,0 0,-2z M114,74l2,0 0,2 -2,0 0,-2z M116,74l2,0 0,2 -2,0 0,-2z M122,74l2,0 0,2 -2,0 0,-2z M124,74l2,0 0,2 -2,0 0,-2z M128,74l2,0 0,2 -2,0 0,-2z M132,74l2,0 0,2 -2,0 0,-2z M136,74l2,0 0,2 -2,0 0,-2z M138,74l2,0 0,2 -2,0 0,-2z M140,74l2,0 0,2 -2,0 0,-2z M142,74l2,0 0,2 -2,0 0,-2z M144,74l2,0 0,2 -2,0 0,-2z M148,74l2,0 0,2 -2,0 0,-2z M14,76l2,0 0,2 -2,0 0,-2z M16,76l2,0 0,2 -2,0 0,-2z M18,76l2,0 0,2 -2,0 0,-2z M20,76l2,0 0,2 -2,0 0,-2z M24,76l2,0 0,2 -2,0 0,-2z M26,76l2,0 0,2 -2,0 0,-2z M32,76l2,0 0,2 -2,0 0,-2z M34,76l2,0 0,2 -2,0 0,-2z M44,76l2,0 0,2 -2,0 0,-2z M46,76l2,0 0,2 -2,0 0,-2z M54,76l2,0 0,2 -2,0 0,-2z M60,76l2,0 0,2 -2,0 0,-2z M66,76l2,0 0,2 -2,0 0,-2z M72,76l2,0 0,2 -2,0 0,-2z M84,76l2,0 0,2 -2,0 0,-2z M86,76l2,0 0,2 -2,0 0,-2z M90,76l2,0 0,2 -2,0 0,-2z M96,76l2,0 0,2 -2,0 0,-2z M102,76l2,0 0,2 -2,0 0,-2z M104,76l2,0 0,2 -2,0 0,-2z M110,76l2,0 0,2 -2,0 0,-2z M114,76l2,0 0,2 -2,0 0,-2z M116,76l2,0 0,2 -2,0 0,-2z M126,76l2,0 0,2 -2,0 0,-2z M130,76l2,0 0,2 -2,0 0,-2z M134,76l2,0 0,2 -2,0 0,-2z M136,76l2,0 0,2 -2,0 0,-2z M138,76l2,0 0,2 -2,0 0,-2z M140,76l2,0 0,2 -2,0 0,-2z M142,76l2,0 0,2 -2,0 0,-2z M144,76l2,0 0,2 -2,0 0,-2z M148,76l2,0 0,2 -2,0 0,-2z M152,76l2,0 0,2 -2,0 0,-2z M154,76l2,0 0,2 -2,0 0,-2z M156,76l2,0 0,2 -2,0 0,-2z M8,78l2,0 0,2 -2,0 0,-2z M10,78l2,0 0,2 -2,0 0,-2z M14,78l2,0 0,2 -2,0 0,-2z M18,78l2,0 0,2 -2,0 0,-2z M26,78l2,0 0,2 -2,0 0,-2z M32,78l2,0 0,2 -2,0 0,-2z M34,78l2,0 0,2 -2,0 0,-2z M36,78l2,0 0,2 -2,0 0,-2z M42,78l2,0 0,2 -2,0 0,-2z M48,78l2,0 0,2 -2,0 0,-2z M50,78l2,0 0,2 -2,0 0,-2z M56,78l2,0 0,2 -2,0 0,-2z M68,78l2,0 0,2 -2,0 0,-2z M70,78l2,0 0,2 -2,0 0,-2z M74,78l2,0 0,2 -2,0 0,-2z M76,78l2,0 0,2 -2,0 0,-2z M80,78l2,0 0,2 -2,0 0,-2z M82,78l2,0 0,2 -2,0 0,-2z M86,78l2,0 0,2 -2,0 0,-2z M90,78l2,0 0,2 -2,0 0,-2z M92,78l2,0 0,2 -2,0 0,-2z M94,78l2,0 0,2 -2,0 0,-2z M98,78l2,0 0,2 -2,0 0,-2z M100,78l2,0 0,2 -2,0 0,-2z M102,78l2,0 0,2 -2,0 0,-2z M106,78l2,0 0,2 -2,0 0,-2z M110,78l2,0 0,2 -2,0 0,-2z M128,78l2,0 0,2 -2,0 0,-2z M130,78l2,0 0,2 -2,0 0,-2z M132,78l2,0 0,2 -2,0 0,-2z M136,78l2,0 0,2 -2,0 0,-2z M142,78l2,0 0,2 -2,0 0,-2z M146,78l2,0 0,2 -2,0 0,-2z M150,78l2,0 0,2 -2,0 0,-2z M154,78l2,0 0,2 -2,0 0,-2z M158,78l2,0 0,2 -2,0 0,-2z M160,78l2,0 0,2 -2,0 0,-2z M12,80l2,0 0,2 -2,0 0,-2z M14,80l2,0 0,2 -2,0 0,-2z M20,80l2,0 0,2 -2,0 0,-2z M22,80l2,0 0,2 -2,0 0,-2z M28,80l2,0 0,2 -2,0 0,-2z M30,80l2,0 0,2 -2,0 0,-2z M34,80l2,0 0,2 -2,0 0,-2z M36,80l2,0 0,2 -2,0 0,-2z M38,80l2,0 0,2 -2,0 0,-2z M42,80l2,0 0,2 -2,0 0,-2z M44,80l2,0 0,2 -2,0 0,-2z M46,80l2,0 0,2 -2,0 0,-2z M48,80l2,0 0,2 -2,0 0,-2z M54,80l2,0 0,2 -2,0 0,-2z M56,80l2,0 0,2 -2,0 0,-2z M64,80l2,0 0,2 -2,0 0,-2z M66,80l2,0 0,2 -2,0 0,-2z M68,80l2,0 0,2 -2,0 0,-2z M72,80l2,0 0,2 -2,0 0,-2z M78,80l2,0 0,2 -2,0 0,-2z M80,80l2,0 0,2 -2,0 0,-2z M88,80l2,0 0,2 -2,0 0,-2z M90,80l2,0 0,2 -2,0 0,-2z M92,80l2,0 0,2 -2,0 0,-2z M94,80l2,0 0,2 -2,0 0,-2z M96,80l2,0 0,2 -2,0 0,-2z M98,80l2,0 0,2 -2,0 0,-2z M102,80l2,0 0,2 -2,0 0,-2z M106,80l2,0 0,2 -2,0 0,-2z M108,80l2,0 0,2 -2,0 0,-2z M110,80l2,0 0,2 -2,0 0,-2z M112,80l2,0 0,2 -2,0 0,-2z M116,80l2,0 0,2 -2,0 0,-2z M122,80l2,0 0,2 -2,0 0,-2z M126,80l2,0 0,2 -2,0 0,-2z M128,80l2,0 0,2 -2,0 0,-2z M130,80l2,0 0,2 -2,0 0,-2z M134,80l2,0 0,2 -2,0 0,-2z M136,80l2,0 0,2 -2,0 0,-2z M138,80l2,0 0,2 -2,0 0,-2z M140,80l2,0 0,2 -2,0 0,-2z M142,80l2,0 0,2 -2,0 0,-2z M146,80l2,0 0,2 -2,0 0,-2z M152,80l2,0 0,2 -2,0 0,-2z M154,80l2,0 0,2 -2,0 0,-2z M158,80l2,0 0,2 -2,0 0,-2z M16,82l2,0 0,2 -2,0 0,-2z M22,82l2,0 0,2 -2,0 0,-2z M24,82l2,0 0,2 -2,0 0,-2z M26,82l2,0 0,2 -2,0 0,-2z M28,82l2,0 0,2 -2,0 0,-2z M34,82l2,0 0,2 -2,0 0,-2z M36,82l2,0 0,2 -2,0 0,-2z M38,82l2,0 0,2 -2,0 0,-2z M40,82l2,0 0,2 -2,0 0,-2z M46,82l2,0 0,2 -2,0 0,-2z M52,82l2,0 0,2 -2,0 0,-2z M58,82l2,0 0,2 -2,0 0,-2z M60,82l2,0 0,2 -2,0 0,-2z M64,82l2,0 0,2 -2,0 0,-2z M70,82l2,0 0,2 -2,0 0,-2z M72,82l2,0 0,2 -2,0 0,-2z M74,82l2,0 0,2 -2,0 0,-2z M76,82l2,0 0,2 -2,0 0,-2z M78,82l2,0 0,2 -2,0 0,-2z M86,82l2,0 0,2 -2,0 0,-2z M88,82l2,0 0,2 -2,0 0,-2z M90,82l2,0 0,2 -2,0 0,-2z M98,82l2,0 0,2 -2,0 0,-2z M104,82l2,0 0,2 -2,0 0,-2z M106,82l2,0 0,2 -2,0 0,-2z M112,82l2,0 0,2 -2,0 0,-2z M114,82l2,0 0,2 -2,0 0,-2z M116,82l2,0 0,2 -2,0 0,-2z M118,82l2,0 0,2 -2,0 0,-2z M124,82l2,0 0,2 -2,0 0,-2z M128,82l2,0 0,2 -2,0 0,-2z M132,82l2,0 0,2 -2,0 0,-2z M138,82l2,0 0,2 -2,0 0,-2z M140,82l2,0 0,2 -2,0 0,-2z M144,82l2,0 0,2 -2,0 0,-2z M146,82l2,0 0,2 -2,0 0,-2z M148,82l2,0 0,2 -2,0 0,-2z M156,82l2,0 0,2 -2,0 0,-2z M14,84l2,0 0,2 -2,0 0,-2z M16,84l2,0 0,2 -2,0 0,-2z M20,84l2,0 0,2 -2,0 0,-2z M24,84l2,0 0,2 -2,0 0,-2z M26,84l2,0 0,2 -2,0 0,-2z M28,84l2,0 0,2 -2,0 0,-2z M30,84l2,0 0,2 -2,0 0,-2z M32,84l2,0 0,2 -2,0 0,-2z M52,84l2,0 0,2 -2,0 0,-2z M60,84l2,0 0,2 -2,0 0,-2z M62,84l2,0 0,2 -2,0 0,-2z M66,84l2,0 0,2 -2,0 0,-2z M76,84l2,0 0,2 -2,0 0,-2z M78,84l2,0 0,2 -2,0 0,-2z M82,84l2,0 0,2 -2,0 0,-2z M86,84l2,0 0,2 -2,0 0,-2z M88,84l2,0 0,2 -2,0 0,-2z M92,84l2,0 0,2 -2,0 0,-2z M96,84l2,0 0,2 -2,0 0,-2z M100,84l2,0 0,2 -2,0 0,-2z M110,84l2,0 0,2 -2,0 0,-2z M112,84l2,0 0,2 -2,0 0,-2z M124,84l2,0 0,2 -2,0 0,-2z M126,84l2,0 0,2 -2,0 0,-2z M128,84l2,0 0,2 -2,0 0,-2z M132,84l2,0 0,2 -2,0 0,-2z M136,84l2,0 0,2 -2,0 0,-2z M138,84l2,0 0,2 -2,0 0,-2z M142,84l2,0 0,2 -2,0 0,-2z M158,84l2,0 0,2 -2,0 0,-2z M8,86l2,0 0,2 -2,0 0,-2z M10,86l2,0 0,2 -2,0 0,-2z M12,86l2,0 0,2 -2,0 0,-2z M16,86l2,0 0,2 -2,0 0,-2z M18,86l2,0 0,2 -2,0 0,-2z M24,86l2,0 0,2 -2,0 0,-2z M26,86l2,0 0,2 -2,0 0,-2z M28,86l2,0 0,2 -2,0 0,-2z M32,86l2,0 0,2 -2,0 0,-2z M34,86l2,0 0,2 -2,0 0,-2z M36,86l2,0 0,2 -2,0 0,-2z M40,86l2,0 0,2 -2,0 0,-2z M42,86l2,0 0,2 -2,0 0,-2z M52,86l2,0 0,2 -2,0 0,-2z M56,86l2,0 0,2 -2,0 0,-2z M58,86l2,0 0,2 -2,0 0,-2z M60,86l2,0 0,2 -2,0 0,-2z M62,86l2,0 0,2 -2,0 0,-2z M72,86l2,0 0,2 -2,0 0,-2z M80,86l2,0 0,2 -2,0 0,-2z M82,86l2,0 0,2 -2,0 0,-2z M86,86l2,0 0,2 -2,0 0,-2z M90,86l2,0 0,2 -2,0 0,-2z M94,86l2,0 0,2 -2,0 0,-2z M98,86l2,0 0,2 -2,0 0,-2z M100,86l2,0 0,2 -2,0 0,-2z M108,86l2,0 0,2 -2,0 0,-2z M112,86l2,0 0,2 -2,0 0,-2z M114,86l2,0 0,2 -2,0 0,-2z M120,86l2,0 0,2 -2,0 0,-2z M122,86l2,0 0,2 -2,0 0,-2z M124,86l2,0 0,2 -2,0 0,-2z M128,86l2,0 0,2 -2,0 0,-2z M130,86l2,0 0,2 -2,0 0,-2z M132,86l2,0 0,2 -2,0 0,-2z M134,86l2,0 0,2 -2,0 0,-2z M136,86l2,0 0,2 -2,0 0,-2z M138,86l2,0 0,2 -2,0 0,-2z M142,86l2,0 0,2 -2,0 0,-2z M144,86l2,0 0,2 -2,0 0,-2z M148,86l2,0 0,2 -2,0 0,-2z M150,86l2,0 0,2 -2,0 0,-2z M152,86l2,0 0,2 -2,0 0,-2z M154,86l2,0 0,2 -2,0 0,-2z M158,86l2,0 0,2 -2,0 0,-2z M160,86l2,0 0,2 -2,0 0,-2z M10,88l2,0 0,2 -2,0 0,-2z M12,88l2,0 0,2 -2,0 0,-2z M14,88l2,0 0,2 -2,0 0,-2z M20,88l2,0 0,2 -2,0 0,-2z M24,88l2,0 0,2 -2,0 0,-2z M28,88l2,0 0,2 -2,0 0,-2z M30,88l2,0 0,2 -2,0 0,-2z M32,88l2,0 0,2 -2,0 0,-2z M36,88l2,0 0,2 -2,0 0,-2z M38,88l2,0 0,2 -2,0 0,-2z M40,88l2,0 0,2 -2,0 0,-2z M42,88l2,0 0,2 -2,0 0,-2z M44,88l2,0 0,2 -2,0 0,-2z M48,88l2,0 0,2 -2,0 0,-2z M50,88l2,0 0,2 -2,0 0,-2z M54,88l2,0 0,2 -2,0 0,-2z M56,88l2,0 0,2 -2,0 0,-2z M58,88l2,0 0,2 -2,0 0,-2z M60,88l2,0 0,2 -2,0 0,-2z M70,88l2,0 0,2 -2,0 0,-2z M82,88l2,0 0,2 -2,0 0,-2z M86,88l2,0 0,2 -2,0 0,-2z M90,88l2,0 0,2 -2,0 0,-2z M92,88l2,0 0,2 -2,0 0,-2z M96,88l2,0 0,2 -2,0 0,-2z M98,88l2,0 0,2 -2,0 0,-2z M102,88l2,0 0,2 -2,0 0,-2z M108,88l2,0 0,2 -2,0 0,-2z M112,88l2,0 0,2 -2,0 0,-2z M116,88l2,0 0,2 -2,0 0,-2z M118,88l2,0 0,2 -2,0 0,-2z M120,88l2,0 0,2 -2,0 0,-2z M126,88l2,0 0,2 -2,0 0,-2z M128,88l2,0 0,2 -2,0 0,-2z M130,88l2,0 0,2 -2,0 0,-2z M134,88l2,0 0,2 -2,0 0,-2z M150,88l2,0 0,2 -2,0 0,-2z M158,88l2,0 0,2 -2,0 0,-2z M160,88l2,0 0,2 -2,0 0,-2z M8,90l2,0 0,2 -2,0 0,-2z M12,90l2,0 0,2 -2,0 0,-2z M22,90l2,0 0,2 -2,0 0,-2z M24,90l2,0 0,2 -2,0 0,-2z M28,90l2,0 0,2 -2,0 0,-2z M30,90l2,0 0,2 -2,0 0,-2z M32,90l2,0 0,2 -2,0 0,-2z M36,90l2,0 0,2 -2,0 0,-2z M38,90l2,0 0,2 -2,0 0,-2z M40,90l2,0 0,2 -2,0 0,-2z M44,90l2,0 0,2 -2,0 0,-2z M54,90l2,0 0,2 -2,0 0,-2z M56,90l2,0 0,2 -2,0 0,-2z M58,90l2,0 0,2 -2,0 0,-2z M60,90l2,0 0,2 -2,0 0,-2z M66,90l2,0 0,2 -2,0 0,-2z M68,90l2,0 0,2 -2,0 0,-2z M72,90l2,0 0,2 -2,0 0,-2z M74,90l2,0 0,2 -2,0 0,-2z M76,90l2,0 0,2 -2,0 0,-2z M84,90l2,0 0,2 -2,0 0,-2z M92,90l2,0 0,2 -2,0 0,-2z M106,90l2,0 0,2 -2,0 0,-2z M110,90l2,0 0,2 -2,0 0,-2z M112,90l2,0 0,2 -2,0 0,-2z M114,90l2,0 0,2 -2,0 0,-2z M120,90l2,0 0,2 -2,0 0,-2z M134,90l2,0 0,2 -2,0 0,-2z M144,90l2,0 0,2 -2,0 0,-2z M148,90l2,0 0,2 -2,0 0,-2z M150,90l2,0 0,2 -2,0 0,-2z M154,90l2,0 0,2 -2,0 0,-2z M158,90l2,0 0,2 -2,0 0,-2z M160,90l2,0 0,2 -2,0 0,-2z M10,92l2,0 0,2 -2,0 0,-2z M12,92l2,0 0,2 -2,0 0,-2z M14,92l2,0 0,2 -2,0 0,-2z M18,92l2,0 0,2 -2,0 0,-2z M20,92l2,0 0,2 -2,0 0,-2z M22,92l2,0 0,2 -2,0 0,-2z M24,92l2,0 0,2 -2,0 0,-2z M34,92l2,0 0,2 -2,0 0,-2z M36,92l2,0 0,2 -2,0 0,-2z M38,92l2,0 0,2 -2,0 0,-2z M40,92l2,0 0,2 -2,0 0,-2z M42,92l2,0 0,2 -2,0 0,-2z M46,92l2,0 0,2 -2,0 0,-2z M48,92l2,0 0,2 -2,0 0,-2z M50,92l2,0 0,2 -2,0 0,-2z M56,92l2,0 0,2 -2,0 0,-2z M64,92l2,0 0,2 -2,0 0,-2z M66,92l2,0 0,2 -2,0 0,-2z M72,92l2,0 0,2 -2,0 0,-2z M74,92l2,0 0,2 -2,0 0,-2z M78,92l2,0 0,2 -2,0 0,-2z M80,92l2,0 0,2 -2,0 0,-2z M86,92l2,0 0,2 -2,0 0,-2z M108,92l2,0 0,2 -2,0 0,-2z M110,92l2,0 0,2 -2,0 0,-2z M118,92l2,0 0,2 -2,0 0,-2z M120,92l2,0 0,2 -2,0 0,-2z M122,92l2,0 0,2 -2,0 0,-2z M128,92l2,0 0,2 -2,0 0,-2z M132,92l2,0 0,2 -2,0 0,-2z M136,92l2,0 0,2 -2,0 0,-2z M138,92l2,0 0,2 -2,0 0,-2z M142,92l2,0 0,2 -2,0 0,-2z M152,92l2,0 0,2 -2,0 0,-2z M154,92l2,0 0,2 -2,0 0,-2z M156,92l2,0 0,2 -2,0 0,-2z M158,92l2,0 0,2 -2,0 0,-2z M8,94l2,0 0,2 -2,0 0,-2z M12,94l2,0 0,2 -2,0 0,-2z M14,94l2,0 0,2 -2,0 0,-2z M18,94l2,0 0,2 -2,0 0,-2z M24,94l2,0 0,2 -2,0 0,-2z M26,94l2,0 0,2 -2,0 0,-2z M28,94l2,0 0,2 -2,0 0,-2z M30,94l2,0 0,2 -2,0 0,-2z M38,94l2,0 0,2 -2,0 0,-2z M40,94l2,0 0,2 -2,0 0,-2z M46,94l2,0 0,2 -2,0 0,-2z M50,94l2,0 0,2 -2,0 0,-2z M54,94l2,0 0,2 -2,0 0,-2z M56,94l2,0 0,2 -2,0 0,-2z M58,94l2,0 0,2 -2,0 0,-2z M60,94l2,0 0,2 -2,0 0,-2z M74,94l2,0 0,2 -2,0 0,-2z M84,94l2,0 0,2 -2,0 0,-2z M92,94l2,0 0,2 -2,0 0,-2z M94,94l2,0 0,2 -2,0 0,-2z M96,94l2,0 0,2 -2,0 0,-2z M98,94l2,0 0,2 -2,0 0,-2z M108,94l2,0 0,2 -2,0 0,-2z M110,94l2,0 0,2 -2,0 0,-2z M112,94l2,0 0,2 -2,0 0,-2z M114,94l2,0 0,2 -2,0 0,-2z M120,94l2,0 0,2 -2,0 0,-2z M122,94l2,0 0,2 -2,0 0,-2z M124,94l2,0 0,2 -2,0 0,-2z M126,94l2,0 0,2 -2,0 0,-2z M128,94l2,0 0,2 -2,0 0,-2z M130,94l2,0 0,2 -2,0 0,-2z M132,94l2,0 0,2 -2,0 0,-2z M138,94l2,0 0,2 -2,0 0,-2z M144,94l2,0 0,2 -2,0 0,-2z M156,94l2,0 0,2 -2,0 0,-2z M158,94l2,0 0,2 -2,0 0,-2z M8,96l2,0 0,2 -2,0 0,-2z M16,96l2,0 0,2 -2,0 0,-2z M20,96l2,0 0,2 -2,0 0,-2z M22,96l2,0 0,2 -2,0 0,-2z M26,96l2,0 0,2 -2,0 0,-2z M36,96l2,0 0,2 -2,0 0,-2z M42,96l2,0 0,2 -2,0 0,-2z M48,96l2,0 0,2 -2,0 0,-2z M54,96l2,0 0,2 -2,0 0,-2z M58,96l2,0 0,2 -2,0 0,-2z M64,96l2,0 0,2 -2,0 0,-2z M72,96l2,0 0,2 -2,0 0,-2z M74,96l2,0 0,2 -2,0 0,-2z M76,96l2,0 0,2 -2,0 0,-2z M82,96l2,0 0,2 -2,0 0,-2z M90,96l2,0 0,2 -2,0 0,-2z M94,96l2,0 0,2 -2,0 0,-2z M98,96l2,0 0,2 -2,0 0,-2z M100,96l2,0 0,2 -2,0 0,-2z M102,96l2,0 0,2 -2,0 0,-2z M104,96l2,0 0,2 -2,0 0,-2z M108,96l2,0 0,2 -2,0 0,-2z M112,96l2,0 0,2 -2,0 0,-2z M118,96l2,0 0,2 -2,0 0,-2z M120,96l2,0 0,2 -2,0 0,-2z M122,96l2,0 0,2 -2,0 0,-2z M126,96l2,0 0,2 -2,0 0,-2z M132,96l2,0 0,2 -2,0 0,-2z M138,96l2,0 0,2 -2,0 0,-2z M146,96l2,0 0,2 -2,0 0,-2z M148,96l2,0 0,2 -2,0 0,-2z M154,96l2,0 0,2 -2,0 0,-2z M156,96l2,0 0,2 -2,0 0,-2z M160,96l2,0 0,2 -2,0 0,-2z M8,98l2,0 0,2 -2,0 0,-2z M12,98l2,0 0,2 -2,0 0,-2z M14,98l2,0 0,2 -2,0 0,-2z M16,98l2,0 0,2 -2,0 0,-2z M18,98l2,0 0,2 -2,0 0,-2z M24,98l2,0 0,2 -2,0 0,-2z M28,98l2,0 0,2 -2,0 0,-2z M30,98l2,0 0,2 -2,0 0,-2z M34,98l2,0 0,2 -2,0 0,-2z M40,98l2,0 0,2 -2,0 0,-2z M42,98l2,0 0,2 -2,0 0,-2z M44,98l2,0 0,2 -2,0 0,-2z M46,98l2,0 0,2 -2,0 0,-2z M48,98l2,0 0,2 -2,0 0,-2z M54,98l2,0 0,2 -2,0 0,-2z M56,98l2,0 0,2 -2,0 0,-2z M58,98l2,0 0,2 -2,0 0,-2z M62,98l2,0 0,2 -2,0 0,-2z M64,98l2,0 0,2 -2,0 0,-2z M68,98l2,0 0,2 -2,0 0,-2z M70,98l2,0 0,2 -2,0 0,-2z M72,98l2,0 0,2 -2,0 0,-2z M76,98l2,0 0,2 -2,0 0,-2z M80,98l2,0 0,2 -2,0 0,-2z M84,98l2,0 0,2 -2,0 0,-2z M86,98l2,0 0,2 -2,0 0,-2z M92,98l2,0 0,2 -2,0 0,-2z M94,98l2,0 0,2 -2,0 0,-2z M98,98l2,0 0,2 -2,0 0,-2z M100,98l2,0 0,2 -2,0 0,-2z M102,98l2,0 0,2 -2,0 0,-2z M106,98l2,0 0,2 -2,0 0,-2z M108,98l2,0 0,2 -2,0 0,-2z M112,98l2,0 0,2 -2,0 0,-2z M126,98l2,0 0,2 -2,0 0,-2z M130,98l2,0 0,2 -2,0 0,-2z M134,98l2,0 0,2 -2,0 0,-2z M148,98l2,0 0,2 -2,0 0,-2z M150,98l2,0 0,2 -2,0 0,-2z M152,98l2,0 0,2 -2,0 0,-2z M158,98l2,0 0,2 -2,0 0,-2z M10,100l2,0 0,2 -2,0 0,-2z M12,100l2,0 0,2 -2,0 0,-2z M14,100l2,0 0,2 -2,0 0,-2z M16,100l2,0 0,2 -2,0 0,-2z M18,100l2,0 0,2 -2,0 0,-2z M20,100l2,0 0,2 -2,0 0,-2z M22,100l2,0 0,2 -2,0 0,-2z M24,100l2,0 0,2 -2,0 0,-2z M26,100l2,0 0,2 -2,0 0,-2z M30,100l2,0 0,2 -2,0 0,-2z M34,100l2,0 0,2 -2,0 0,-2z M36,100l2,0 0,2 -2,0 0,-2z M42,100l2,0 0,2 -2,0 0,-2z M46,100l2,0 0,2 -2,0 0,-2z M48,100l2,0 0,2 -2,0 0,-2z M52,100l2,0 0,2 -2,0 0,-2z M54,100l2,0 0,2 -2,0 0,-2z M56,100l2,0 0,2 -2,0 0,-2z M58,100l2,0 0,2 -2,0 0,-2z M60,100l2,0 0,2 -2,0 0,-2z M62,100l2,0 0,2 -2,0 0,-2z M64,100l2,0 0,2 -2,0 0,-2z M66,100l2,0 0,2 -2,0 0,-2z M80,100l2,0 0,2 -2,0 0,-2z M84,100l2,0 0,2 -2,0 0,-2z M88,100l2,0 0,2 -2,0 0,-2z M90,100l2,0 0,2 -2,0 0,-2z M92,100l2,0 0,2 -2,0 0,-2z M96,100l2,0 0,2 -2,0 0,-2z M98,100l2,0 0,2 -2,0 0,-2z M100,100l2,0 0,2 -2,0 0,-2z M102,100l2,0 0,2 -2,0 0,-2z M104,100l2,0 0,2 -2,0 0,-2z M106,100l2,0 0,2 -2,0 0,-2z M108,100l2,0 0,2 -2,0 0,-2z M110,100l2,0 0,2 -2,0 0,-2z M112,100l2,0 0,2 -2,0 0,-2z M114,100l2,0 0,2 -2,0 0,-2z M120,100l2,0 0,2 -2,0 0,-2z M124,100l2,0 0,2 -2,0 0,-2z M128,100l2,0 0,2 -2,0 0,-2z M144,100l2,0 0,2 -2,0 0,-2z M146,100l2,0 0,2 -2,0 0,-2z M148,100l2,0 0,2 -2,0 0,-2z M150,100l2,0 0,2 -2,0 0,-2z M152,100l2,0 0,2 -2,0 0,-2z M154,100l2,0 0,2 -2,0 0,-2z M156,100l2,0 0,2 -2,0 0,-2z M158,100l2,0 0,2 -2,0 0,-2z M160,100l2,0 0,2 -2,0 0,-2z M14,102l2,0 0,2 -2,0 0,-2z M16,102l2,0 0,2 -2,0 0,-2z M24,102l2,0 0,2 -2,0 0,-2z M28,102l2,0 0,2 -2,0 0,-2z M36,102l2,0 0,2 -2,0 0,-2z M38,102l2,0 0,2 -2,0 0,-2z M40,102l2,0 0,2 -2,0 0,-2z M42,102l2,0 0,2 -2,0 0,-2z M44,102l2,0 0,2 -2,0 0,-2z M46,102l2,0 0,2 -2,0 0,-2z M50,102l2,0 0,2 -2,0 0,-2z M56,102l2,0 0,2 -2,0 0,-2z M64,102l2,0 0,2 -2,0 0,-2z M74,102l2,0 0,2 -2,0 0,-2z M86,102l2,0 0,2 -2,0 0,-2z M88,102l2,0 0,2 -2,0 0,-2z M90,102l2,0 0,2 -2,0 0,-2z M92,102l2,0 0,2 -2,0 0,-2z M98,102l2,0 0,2 -2,0 0,-2z M100,102l2,0 0,2 -2,0 0,-2z M108,102l2,0 0,2 -2,0 0,-2z M112,102l2,0 0,2 -2,0 0,-2z M114,102l2,0 0,2 -2,0 0,-2z M116,102l2,0 0,2 -2,0 0,-2z M118,102l2,0 0,2 -2,0 0,-2z M120,102l2,0 0,2 -2,0 0,-2z M124,102l2,0 0,2 -2,0 0,-2z M142,102l2,0 0,2 -2,0 0,-2z M144,102l2,0 0,2 -2,0 0,-2z M152,102l2,0 0,2 -2,0 0,-2z M8,104l2,0 0,2 -2,0 0,-2z M10,104l2,0 0,2 -2,0 0,-2z M12,104l2,0 0,2 -2,0 0,-2z M14,104l2,0 0,2 -2,0 0,-2z M16,104l2,0 0,2 -2,0 0,-2z M20,104l2,0 0,2 -2,0 0,-2z M24,104l2,0 0,2 -2,0 0,-2z M28,104l2,0 0,2 -2,0 0,-2z M30,104l2,0 0,2 -2,0 0,-2z M38,104l2,0 0,2 -2,0 0,-2z M40,104l2,0 0,2 -2,0 0,-2z M50,104l2,0 0,2 -2,0 0,-2z M52,104l2,0 0,2 -2,0 0,-2z M56,104l2,0 0,2 -2,0 0,-2z M60,104l2,0 0,2 -2,0 0,-2z M64,104l2,0 0,2 -2,0 0,-2z M72,104l2,0 0,2 -2,0 0,-2z M78,104l2,0 0,2 -2,0 0,-2z M82,104l2,0 0,2 -2,0 0,-2z M84,104l2,0 0,2 -2,0 0,-2z M88,104l2,0 0,2 -2,0 0,-2z M100,104l2,0 0,2 -2,0 0,-2z M104,104l2,0 0,2 -2,0 0,-2z M108,104l2,0 0,2 -2,0 0,-2z M110,104l2,0 0,2 -2,0 0,-2z M112,104l2,0 0,2 -2,0 0,-2z M114,104l2,0 0,2 -2,0 0,-2z M118,104l2,0 0,2 -2,0 0,-2z M122,104l2,0 0,2 -2,0 0,-2z M130,104l2,0 0,2 -2,0 0,-2z M132,104l2,0 0,2 -2,0 0,-2z M140,104l2,0 0,2 -2,0 0,-2z M142,104l2,0 0,2 -2,0 0,-2z M144,104l2,0 0,2 -2,0 0,-2z M148,104l2,0 0,2 -2,0 0,-2z M152,104l2,0 0,2 -2,0 0,-2z M154,104l2,0 0,2 -2,0 0,-2z M156,104l2,0 0,2 -2,0 0,-2z M160,104l2,0 0,2 -2,0 0,-2z M8,106l2,0 0,2 -2,0 0,-2z M10,106l2,0 0,2 -2,0 0,-2z M16,106l2,0 0,2 -2,0 0,-2z M24,106l2,0 0,2 -2,0 0,-2z M30,106l2,0 0,2 -2,0 0,-2z M32,106l2,0 0,2 -2,0 0,-2z M34,106l2,0 0,2 -2,0 0,-2z M38,106l2,0 0,2 -2,0 0,-2z M42,106l2,0 0,2 -2,0 0,-2z M44,106l2,0 0,2 -2,0 0,-2z M46,106l2,0 0,2 -2,0 0,-2z M48,106l2,0 0,2 -2,0 0,-2z M50,106l2,0 0,2 -2,0 0,-2z M52,106l2,0 0,2 -2,0 0,-2z M54,106l2,0 0,2 -2,0 0,-2z M56,106l2,0 0,2 -2,0 0,-2z M64,106l2,0 0,2 -2,0 0,-2z M68,106l2,0 0,2 -2,0 0,-2z M70,106l2,0 0,2 -2,0 0,-2z M72,106l2,0 0,2 -2,0 0,-2z M76,106l2,0 0,2 -2,0 0,-2z M80,106l2,0 0,2 -2,0 0,-2z M82,106l2,0 0,2 -2,0 0,-2z M86,106l2,0 0,2 -2,0 0,-2z M90,106l2,0 0,2 -2,0 0,-2z M92,106l2,0 0,2 -2,0 0,-2z M94,106l2,0 0,2 -2,0 0,-2z M96,106l2,0 0,2 -2,0 0,-2z M100,106l2,0 0,2 -2,0 0,-2z M108,106l2,0 0,2 -2,0 0,-2z M118,106l2,0 0,2 -2,0 0,-2z M124,106l2,0 0,2 -2,0 0,-2z M126,106l2,0 0,2 -2,0 0,-2z M130,106l2,0 0,2 -2,0 0,-2z M132,106l2,0 0,2 -2,0 0,-2z M134,106l2,0 0,2 -2,0 0,-2z M136,106l2,0 0,2 -2,0 0,-2z M138,106l2,0 0,2 -2,0 0,-2z M140,106l2,0 0,2 -2,0 0,-2z M142,106l2,0 0,2 -2,0 0,-2z M144,106l2,0 0,2 -2,0 0,-2z M152,106l2,0 0,2 -2,0 0,-2z M154,106l2,0 0,2 -2,0 0,-2z M158,106l2,0 0,2 -2,0 0,-2z M8,108l2,0 0,2 -2,0 0,-2z M16,108l2,0 0,2 -2,0 0,-2z M18,108l2,0 0,2 -2,0 0,-2z M20,108l2,0 0,2 -2,0 0,-2z M22,108l2,0 0,2 -2,0 0,-2z M24,108l2,0 0,2 -2,0 0,-2z M28,108l2,0 0,2 -2,0 0,-2z M32,108l2,0 0,2 -2,0 0,-2z M36,108l2,0 0,2 -2,0 0,-2z M38,108l2,0 0,2 -2,0 0,-2z M42,108l2,0 0,2 -2,0 0,-2z M44,108l2,0 0,2 -2,0 0,-2z M48,108l2,0 0,2 -2,0 0,-2z M52,108l2,0 0,2 -2,0 0,-2z M56,108l2,0 0,2 -2,0 0,-2z M58,108l2,0 0,2 -2,0 0,-2z M60,108l2,0 0,2 -2,0 0,-2z M62,108l2,0 0,2 -2,0 0,-2z M64,108l2,0 0,2 -2,0 0,-2z M66,108l2,0 0,2 -2,0 0,-2z M68,108l2,0 0,2 -2,0 0,-2z M70,108l2,0 0,2 -2,0 0,-2z M72,108l2,0 0,2 -2,0 0,-2z M76,108l2,0 0,2 -2,0 0,-2z M78,108l2,0 0,2 -2,0 0,-2z M80,108l2,0 0,2 -2,0 0,-2z M82,108l2,0 0,2 -2,0 0,-2z M88,108l2,0 0,2 -2,0 0,-2z M92,108l2,0 0,2 -2,0 0,-2z M94,108l2,0 0,2 -2,0 0,-2z M98,108l2,0 0,2 -2,0 0,-2z M100,108l2,0 0,2 -2,0 0,-2z M102,108l2,0 0,2 -2,0 0,-2z M104,108l2,0 0,2 -2,0 0,-2z M106,108l2,0 0,2 -2,0 0,-2z M108,108l2,0 0,2 -2,0 0,-2z M112,108l2,0 0,2 -2,0 0,-2z M116,108l2,0 0,2 -2,0 0,-2z M120,108l2,0 0,2 -2,0 0,-2z M124,108l2,0 0,2 -2,0 0,-2z M130,108l2,0 0,2 -2,0 0,-2z M132,108l2,0 0,2 -2,0 0,-2z M134,108l2,0 0,2 -2,0 0,-2z M136,108l2,0 0,2 -2,0 0,-2z M142,108l2,0 0,2 -2,0 0,-2z M144,108l2,0 0,2 -2,0 0,-2z M146,108l2,0 0,2 -2,0 0,-2z M148,108l2,0 0,2 -2,0 0,-2z M150,108l2,0 0,2 -2,0 0,-2z M152,108l2,0 0,2 -2,0 0,-2z M154,108l2,0 0,2 -2,0 0,-2z M156,108l2,0 0,2 -2,0 0,-2z M160,108l2,0 0,2 -2,0 0,-2z M12,110l2,0 0,2 -2,0 0,-2z M18,110l2,0 0,2 -2,0 0,-2z M22,110l2,0 0,2 -2,0 0,-2z M26,110l2,0 0,2 -2,0 0,-2z M28,110l2,0 0,2 -2,0 0,-2z M30,110l2,0 0,2 -2,0 0,-2z M36,110l2,0 0,2 -2,0 0,-2z M38,110l2,0 0,2 -2,0 0,-2z M40,110l2,0 0,2 -2,0 0,-2z M42,110l2,0 0,2 -2,0 0,-2z M44,110l2,0 0,2 -2,0 0,-2z M46,110l2,0 0,2 -2,0 0,-2z M48,110l2,0 0,2 -2,0 0,-2z M54,110l2,0 0,2 -2,0 0,-2z M58,110l2,0 0,2 -2,0 0,-2z M60,110l2,0 0,2 -2,0 0,-2z M64,110l2,0 0,2 -2,0 0,-2z M70,110l2,0 0,2 -2,0 0,-2z M74,110l2,0 0,2 -2,0 0,-2z M76,110l2,0 0,2 -2,0 0,-2z M86,110l2,0 0,2 -2,0 0,-2z M90,110l2,0 0,2 -2,0 0,-2z M94,110l2,0 0,2 -2,0 0,-2z M98,110l2,0 0,2 -2,0 0,-2z M100,110l2,0 0,2 -2,0 0,-2z M104,110l2,0 0,2 -2,0 0,-2z M106,110l2,0 0,2 -2,0 0,-2z M110,110l2,0 0,2 -2,0 0,-2z M112,110l2,0 0,2 -2,0 0,-2z M116,110l2,0 0,2 -2,0 0,-2z M124,110l2,0 0,2 -2,0 0,-2z M134,110l2,0 0,2 -2,0 0,-2z M136,110l2,0 0,2 -2,0 0,-2z M142,110l2,0 0,2 -2,0 0,-2z M144,110l2,0 0,2 -2,0 0,-2z M146,110l2,0 0,2 -2,0 0,-2z M148,110l2,0 0,2 -2,0 0,-2z M152,110l2,0 0,2 -2,0 0,-2z M154,110l2,0 0,2 -2,0 0,-2z M156,110l2,0 0,2 -2,0 0,-2z M8,112l2,0 0,2 -2,0 0,-2z M10,112l2,0 0,2 -2,0 0,-2z M12,112l2,0 0,2 -2,0 0,-2z M14,112l2,0 0,2 -2,0 0,-2z M18,112l2,0 0,2 -2,0 0,-2z M20,112l2,0 0,2 -2,0 0,-2z M22,112l2,0 0,2 -2,0 0,-2z M26,112l2,0 0,2 -2,0 0,-2z M30,112l2,0 0,2 -2,0 0,-2z M34,112l2,0 0,2 -2,0 0,-2z M40,112l2,0 0,2 -2,0 0,-2z M46,112l2,0 0,2 -2,0 0,-2z M52,112l2,0 0,2 -2,0 0,-2z M58,112l2,0 0,2 -2,0 0,-2z M66,112l2,0 0,2 -2,0 0,-2z M70,112l2,0 0,2 -2,0 0,-2z M72,112l2,0 0,2 -2,0 0,-2z M76,112l2,0 0,2 -2,0 0,-2z M78,112l2,0 0,2 -2,0 0,-2z M80,112l2,0 0,2 -2,0 0,-2z M84,112l2,0 0,2 -2,0 0,-2z M88,112l2,0 0,2 -2,0 0,-2z M96,112l2,0 0,2 -2,0 0,-2z M98,112l2,0 0,2 -2,0 0,-2z M102,112l2,0 0,2 -2,0 0,-2z M104,112l2,0 0,2 -2,0 0,-2z M110,112l2,0 0,2 -2,0 0,-2z M114,112l2,0 0,2 -2,0 0,-2z M122,112l2,0 0,2 -2,0 0,-2z M124,112l2,0 0,2 -2,0 0,-2z M132,112l2,0 0,2 -2,0 0,-2z M134,112l2,0 0,2 -2,0 0,-2z M138,112l2,0 0,2 -2,0 0,-2z M142,112l2,0 0,2 -2,0 0,-2z M146,112l2,0 0,2 -2,0 0,-2z M148,112l2,0 0,2 -2,0 0,-2z M152,112l2,0 0,2 -2,0 0,-2z M156,112l2,0 0,2 -2,0 0,-2z M10,114l2,0 0,2 -2,0 0,-2z M14,114l2,0 0,2 -2,0 0,-2z M16,114l2,0 0,2 -2,0 0,-2z M26,114l2,0 0,2 -2,0 0,-2z M28,114l2,0 0,2 -2,0 0,-2z M30,114l2,0 0,2 -2,0 0,-2z M38,114l2,0 0,2 -2,0 0,-2z M42,114l2,0 0,2 -2,0 0,-2z M48,114l2,0 0,2 -2,0 0,-2z M50,114l2,0 0,2 -2,0 0,-2z M52,114l2,0 0,2 -2,0 0,-2z M62,114l2,0 0,2 -2,0 0,-2z M64,114l2,0 0,2 -2,0 0,-2z M74,114l2,0 0,2 -2,0 0,-2z M76,114l2,0 0,2 -2,0 0,-2z M80,114l2,0 0,2 -2,0 0,-2z M82,114l2,0 0,2 -2,0 0,-2z M84,114l2,0 0,2 -2,0 0,-2z M88,114l2,0 0,2 -2,0 0,-2z M98,114l2,0 0,2 -2,0 0,-2z M106,114l2,0 0,2 -2,0 0,-2z M110,114l2,0 0,2 -2,0 0,-2z M116,114l2,0 0,2 -2,0 0,-2z M118,114l2,0 0,2 -2,0 0,-2z M122,114l2,0 0,2 -2,0 0,-2z M124,114l2,0 0,2 -2,0 0,-2z M126,114l2,0 0,2 -2,0 0,-2z M128,114l2,0 0,2 -2,0 0,-2z M130,114l2,0 0,2 -2,0 0,-2z M132,114l2,0 0,2 -2,0 0,-2z M134,114l2,0 0,2 -2,0 0,-2z M140,114l2,0 0,2 -2,0 0,-2z M142,114l2,0 0,2 -2,0 0,-2z M148,114l2,0 0,2 -2,0 0,-2z M150,114l2,0 0,2 -2,0 0,-2z M156,114l2,0 0,2 -2,0 0,-2z M160,114l2,0 0,2 -2,0 0,-2z M8,116l2,0 0,2 -2,0 0,-2z M10,116l2,0 0,2 -2,0 0,-2z M14,116l2,0 0,2 -2,0 0,-2z M18,116l2,0 0,2 -2,0 0,-2z M20,116l2,0 0,2 -2,0 0,-2z M22,116l2,0 0,2 -2,0 0,-2z M24,116l2,0 0,2 -2,0 0,-2z M26,116l2,0 0,2 -2,0 0,-2z M32,116l2,0 0,2 -2,0 0,-2z M34,116l2,0 0,2 -2,0 0,-2z M38,116l2,0 0,2 -2,0 0,-2z M44,116l2,0 0,2 -2,0 0,-2z M46,116l2,0 0,2 -2,0 0,-2z M50,116l2,0 0,2 -2,0 0,-2z M52,116l2,0 0,2 -2,0 0,-2z M54,116l2,0 0,2 -2,0 0,-2z M60,116l2,0 0,2 -2,0 0,-2z M66,116l2,0 0,2 -2,0 0,-2z M68,116l2,0 0,2 -2,0 0,-2z M72,116l2,0 0,2 -2,0 0,-2z M76,116l2,0 0,2 -2,0 0,-2z M78,116l2,0 0,2 -2,0 0,-2z M86,116l2,0 0,2 -2,0 0,-2z M88,116l2,0 0,2 -2,0 0,-2z M104,116l2,0 0,2 -2,0 0,-2z M112,116l2,0 0,2 -2,0 0,-2z M116,116l2,0 0,2 -2,0 0,-2z M122,116l2,0 0,2 -2,0 0,-2z M124,116l2,0 0,2 -2,0 0,-2z M126,116l2,0 0,2 -2,0 0,-2z M140,116l2,0 0,2 -2,0 0,-2z M144,116l2,0 0,2 -2,0 0,-2z M146,116l2,0 0,2 -2,0 0,-2z M156,116l2,0 0,2 -2,0 0,-2z M160,116l2,0 0,2 -2,0 0,-2z M10,118l2,0 0,2 -2,0 0,-2z M22,118l2,0 0,2 -2,0 0,-2z M26,118l2,0 0,2 -2,0 0,-2z M32,118l2,0 0,2 -2,0 0,-2z M34,118l2,0 0,2 -2,0 0,-2z M38,118l2,0 0,2 -2,0 0,-2z M44,118l2,0 0,2 -2,0 0,-2z M48,118l2,0 0,2 -2,0 0,-2z M50,118l2,0 0,2 -2,0 0,-2z M52,118l2,0 0,2 -2,0 0,-2z M54,118l2,0 0,2 -2,0 0,-2z M56,118l2,0 0,2 -2,0 0,-2z M60,118l2,0 0,2 -2,0 0,-2z M62,118l2,0 0,2 -2,0 0,-2z M66,118l2,0 0,2 -2,0 0,-2z M68,118l2,0 0,2 -2,0 0,-2z M72,118l2,0 0,2 -2,0 0,-2z M74,118l2,0 0,2 -2,0 0,-2z M80,118l2,0 0,2 -2,0 0,-2z M84,118l2,0 0,2 -2,0 0,-2z M86,118l2,0 0,2 -2,0 0,-2z M92,118l2,0 0,2 -2,0 0,-2z M94,118l2,0 0,2 -2,0 0,-2z M100,118l2,0 0,2 -2,0 0,-2z M102,118l2,0 0,2 -2,0 0,-2z M104,118l2,0 0,2 -2,0 0,-2z M116,118l2,0 0,2 -2,0 0,-2z M126,118l2,0 0,2 -2,0 0,-2z M130,118l2,0 0,2 -2,0 0,-2z M136,118l2,0 0,2 -2,0 0,-2z M138,118l2,0 0,2 -2,0 0,-2z M140,118l2,0 0,2 -2,0 0,-2z M144,118l2,0 0,2 -2,0 0,-2z M146,118l2,0 0,2 -2,0 0,-2z M150,118l2,0 0,2 -2,0 0,-2z M154,118l2,0 0,2 -2,0 0,-2z M160,118l2,0 0,2 -2,0 0,-2z M12,120l2,0 0,2 -2,0 0,-2z M18,120l2,0 0,2 -2,0 0,-2z M20,120l2,0 0,2 -2,0 0,-2z M22,120l2,0 0,2 -2,0 0,-2z M26,120l2,0 0,2 -2,0 0,-2z M28,120l2,0 0,2 -2,0 0,-2z M30,120l2,0 0,2 -2,0 0,-2z M32,120l2,0 0,2 -2,0 0,-2z M36,120l2,0 0,2 -2,0 0,-2z M44,120l2,0 0,2 -2,0 0,-2z M46,120l2,0 0,2 -2,0 0,-2z M62,120l2,0 0,2 -2,0 0,-2z M72,120l2,0 0,2 -2,0 0,-2z M74,120l2,0 0,2 -2,0 0,-2z M78,120l2,0 0,2 -2,0 0,-2z M84,120l2,0 0,2 -2,0 0,-2z M86,120l2,0 0,2 -2,0 0,-2z M92,120l2,0 0,2 -2,0 0,-2z M98,120l2,0 0,2 -2,0 0,-2z M100,120l2,0 0,2 -2,0 0,-2z M102,120l2,0 0,2 -2,0 0,-2z M106,120l2,0 0,2 -2,0 0,-2z M114,120l2,0 0,2 -2,0 0,-2z M116,120l2,0 0,2 -2,0 0,-2z M124,120l2,0 0,2 -2,0 0,-2z M128,120l2,0 0,2 -2,0 0,-2z M132,120l2,0 0,2 -2,0 0,-2z M134,120l2,0 0,2 -2,0 0,-2z M136,120l2,0 0,2 -2,0 0,-2z M142,120l2,0 0,2 -2,0 0,-2z M144,120l2,0 0,2 -2,0 0,-2z M148,120l2,0 0,2 -2,0 0,-2z M152,120l2,0 0,2 -2,0 0,-2z M154,120l2,0 0,2 -2,0 0,-2z M158,120l2,0 0,2 -2,0 0,-2z M10,122l2,0 0,2 -2,0 0,-2z M14,122l2,0 0,2 -2,0 0,-2z M28,122l2,0 0,2 -2,0 0,-2z M36,122l2,0 0,2 -2,0 0,-2z M46,122l2,0 0,2 -2,0 0,-2z M52,122l2,0 0,2 -2,0 0,-2z M56,122l2,0 0,2 -2,0 0,-2z M68,122l2,0 0,2 -2,0 0,-2z M72,122l2,0 0,2 -2,0 0,-2z M74,122l2,0 0,2 -2,0 0,-2z M76,122l2,0 0,2 -2,0 0,-2z M78,122l2,0 0,2 -2,0 0,-2z M82,122l2,0 0,2 -2,0 0,-2z M96,122l2,0 0,2 -2,0 0,-2z M100,122l2,0 0,2 -2,0 0,-2z M102,122l2,0 0,2 -2,0 0,-2z M106,122l2,0 0,2 -2,0 0,-2z M108,122l2,0 0,2 -2,0 0,-2z M110,122l2,0 0,2 -2,0 0,-2z M114,122l2,0 0,2 -2,0 0,-2z M116,122l2,0 0,2 -2,0 0,-2z M118,122l2,0 0,2 -2,0 0,-2z M120,122l2,0 0,2 -2,0 0,-2z M122,122l2,0 0,2 -2,0 0,-2z M124,122l2,0 0,2 -2,0 0,-2z M128,122l2,0 0,2 -2,0 0,-2z M130,122l2,0 0,2 -2,0 0,-2z M136,122l2,0 0,2 -2,0 0,-2z M150,122l2,0 0,2 -2,0 0,-2z M152,122l2,0 0,2 -2,0 0,-2z M154,122l2,0 0,2 -2,0 0,-2z M156,122l2,0 0,2 -2,0 0,-2z M158,122l2,0 0,2 -2,0 0,-2z M8,124l2,0 0,2 -2,0 0,-2z M10,124l2,0 0,2 -2,0 0,-2z M12,124l2,0 0,2 -2,0 0,-2z M18,124l2,0 0,2 -2,0 0,-2z M20,124l2,0 0,2 -2,0 0,-2z M22,124l2,0 0,2 -2,0 0,-2z M26,124l2,0 0,2 -2,0 0,-2z M30,124l2,0 0,2 -2,0 0,-2z M32,124l2,0 0,2 -2,0 0,-2z M36,124l2,0 0,2 -2,0 0,-2z M38,124l2,0 0,2 -2,0 0,-2z M40,124l2,0 0,2 -2,0 0,-2z M44,124l2,0 0,2 -2,0 0,-2z M46,124l2,0 0,2 -2,0 0,-2z M54,124l2,0 0,2 -2,0 0,-2z M58,124l2,0 0,2 -2,0 0,-2z M60,124l2,0 0,2 -2,0 0,-2z M70,124l2,0 0,2 -2,0 0,-2z M72,124l2,0 0,2 -2,0 0,-2z M74,124l2,0 0,2 -2,0 0,-2z M78,124l2,0 0,2 -2,0 0,-2z M80,124l2,0 0,2 -2,0 0,-2z M82,124l2,0 0,2 -2,0 0,-2z M84,124l2,0 0,2 -2,0 0,-2z M90,124l2,0 0,2 -2,0 0,-2z M92,124l2,0 0,2 -2,0 0,-2z M94,124l2,0 0,2 -2,0 0,-2z M98,124l2,0 0,2 -2,0 0,-2z M106,124l2,0 0,2 -2,0 0,-2z M114,124l2,0 0,2 -2,0 0,-2z M116,124l2,0 0,2 -2,0 0,-2z M118,124l2,0 0,2 -2,0 0,-2z M126,124l2,0 0,2 -2,0 0,-2z M128,124l2,0 0,2 -2,0 0,-2z M134,124l2,0 0,2 -2,0 0,-2z M138,124l2,0 0,2 -2,0 0,-2z M146,124l2,0 0,2 -2,0 0,-2z M148,124l2,0 0,2 -2,0 0,-2z M150,124l2,0 0,2 -2,0 0,-2z M152,124l2,0 0,2 -2,0 0,-2z M158,124l2,0 0,2 -2,0 0,-2z M160,124l2,0 0,2 -2,0 0,-2z M8,126l2,0 0,2 -2,0 0,-2z M10,126l2,0 0,2 -2,0 0,-2z M12,126l2,0 0,2 -2,0 0,-2z M14,126l2,0 0,2 -2,0 0,-2z M26,126l2,0 0,2 -2,0 0,-2z M30,126l2,0 0,2 -2,0 0,-2z M32,126l2,0 0,2 -2,0 0,-2z M34,126l2,0 0,2 -2,0 0,-2z M36,126l2,0 0,2 -2,0 0,-2z M42,126l2,0 0,2 -2,0 0,-2z M48,126l2,0 0,2 -2,0 0,-2z M50,126l2,0 0,2 -2,0 0,-2z M52,126l2,0 0,2 -2,0 0,-2z M54,126l2,0 0,2 -2,0 0,-2z M56,126l2,0 0,2 -2,0 0,-2z M60,126l2,0 0,2 -2,0 0,-2z M70,126l2,0 0,2 -2,0 0,-2z M80,126l2,0 0,2 -2,0 0,-2z M88,126l2,0 0,2 -2,0 0,-2z M90,126l2,0 0,2 -2,0 0,-2z M92,126l2,0 0,2 -2,0 0,-2z M94,126l2,0 0,2 -2,0 0,-2z M96,126l2,0 0,2 -2,0 0,-2z M104,126l2,0 0,2 -2,0 0,-2z M118,126l2,0 0,2 -2,0 0,-2z M122,126l2,0 0,2 -2,0 0,-2z M130,126l2,0 0,2 -2,0 0,-2z M134,126l2,0 0,2 -2,0 0,-2z M138,126l2,0 0,2 -2,0 0,-2z M140,126l2,0 0,2 -2,0 0,-2z M142,126l2,0 0,2 -2,0 0,-2z M150,126l2,0 0,2 -2,0 0,-2z M152,126l2,0 0,2 -2,0 0,-2z M156,126l2,0 0,2 -2,0 0,-2z M10,128l2,0 0,2 -2,0 0,-2z M16,128l2,0 0,2 -2,0 0,-2z M20,128l2,0 0,2 -2,0 0,-2z M22,128l2,0 0,2 -2,0 0,-2z M24,128l2,0 0,2 -2,0 0,-2z M28,128l2,0 0,2 -2,0 0,-2z M32,128l2,0 0,2 -2,0 0,-2z M38,128l2,0 0,2 -2,0 0,-2z M40,128l2,0 0,2 -2,0 0,-2z M42,128l2,0 0,2 -2,0 0,-2z M44,128l2,0 0,2 -2,0 0,-2z M46,128l2,0 0,2 -2,0 0,-2z M48,128l2,0 0,2 -2,0 0,-2z M50,128l2,0 0,2 -2,0 0,-2z M52,128l2,0 0,2 -2,0 0,-2z M54,128l2,0 0,2 -2,0 0,-2z M56,128l2,0 0,2 -2,0 0,-2z M58,128l2,0 0,2 -2,0 0,-2z M60,128l2,0 0,2 -2,0 0,-2z M62,128l2,0 0,2 -2,0 0,-2z M66,128l2,0 0,2 -2,0 0,-2z M82,128l2,0 0,2 -2,0 0,-2z M84,128l2,0 0,2 -2,0 0,-2z M86,128l2,0 0,2 -2,0 0,-2z M88,128l2,0 0,2 -2,0 0,-2z M90,128l2,0 0,2 -2,0 0,-2z M92,128l2,0 0,2 -2,0 0,-2z M94,128l2,0 0,2 -2,0 0,-2z M102,128l2,0 0,2 -2,0 0,-2z M104,128l2,0 0,2 -2,0 0,-2z M108,128l2,0 0,2 -2,0 0,-2z M114,128l2,0 0,2 -2,0 0,-2z M116,128l2,0 0,2 -2,0 0,-2z M120,128l2,0 0,2 -2,0 0,-2z M124,128l2,0 0,2 -2,0 0,-2z M134,128l2,0 0,2 -2,0 0,-2z M136,128l2,0 0,2 -2,0 0,-2z M138,128l2,0 0,2 -2,0 0,-2z M144,128l2,0 0,2 -2,0 0,-2z M148,128l2,0 0,2 -2,0 0,-2z M150,128l2,0 0,2 -2,0 0,-2z M160,128l2,0 0,2 -2,0 0,-2z M12,130l2,0 0,2 -2,0 0,-2z M14,130l2,0 0,2 -2,0 0,-2z M18,130l2,0 0,2 -2,0 0,-2z M22,130l2,0 0,2 -2,0 0,-2z M24,130l2,0 0,2 -2,0 0,-2z M26,130l2,0 0,2 -2,0 0,-2z M28,130l2,0 0,2 -2,0 0,-2z M34,130l2,0 0,2 -2,0 0,-2z M36,130l2,0 0,2 -2,0 0,-2z M38,130l2,0 0,2 -2,0 0,-2z M40,130l2,0 0,2 -2,0 0,-2z M46,130l2,0 0,2 -2,0 0,-2z M50,130l2,0 0,2 -2,0 0,-2z M54,130l2,0 0,2 -2,0 0,-2z M58,130l2,0 0,2 -2,0 0,-2z M60,130l2,0 0,2 -2,0 0,-2z M66,130l2,0 0,2 -2,0 0,-2z M70,130l2,0 0,2 -2,0 0,-2z M72,130l2,0 0,2 -2,0 0,-2z M76,130l2,0 0,2 -2,0 0,-2z M78,130l2,0 0,2 -2,0 0,-2z M80,130l2,0 0,2 -2,0 0,-2z M90,130l2,0 0,2 -2,0 0,-2z M94,130l2,0 0,2 -2,0 0,-2z M98,130l2,0 0,2 -2,0 0,-2z M100,130l2,0 0,2 -2,0 0,-2z M104,130l2,0 0,2 -2,0 0,-2z M108,130l2,0 0,2 -2,0 0,-2z M110,130l2,0 0,2 -2,0 0,-2z M112,130l2,0 0,2 -2,0 0,-2z M114,130l2,0 0,2 -2,0 0,-2z M120,130l2,0 0,2 -2,0 0,-2z M122,130l2,0 0,2 -2,0 0,-2z M126,130l2,0 0,2 -2,0 0,-2z M134,130l2,0 0,2 -2,0 0,-2z M136,130l2,0 0,2 -2,0 0,-2z M144,130l2,0 0,2 -2,0 0,-2z M156,130l2,0 0,2 -2,0 0,-2z M16,132l2,0 0,2 -2,0 0,-2z M18,132l2,0 0,2 -2,0 0,-2z M20,132l2,0 0,2 -2,0 0,-2z M24,132l2,0 0,2 -2,0 0,-2z M26,132l2,0 0,2 -2,0 0,-2z M34,132l2,0 0,2 -2,0 0,-2z M36,132l2,0 0,2 -2,0 0,-2z M40,132l2,0 0,2 -2,0 0,-2z M42,132l2,0 0,2 -2,0 0,-2z M54,132l2,0 0,2 -2,0 0,-2z M56,132l2,0 0,2 -2,0 0,-2z M58,132l2,0 0,2 -2,0 0,-2z M60,132l2,0 0,2 -2,0 0,-2z M64,132l2,0 0,2 -2,0 0,-2z M72,132l2,0 0,2 -2,0 0,-2z M76,132l2,0 0,2 -2,0 0,-2z M78,132l2,0 0,2 -2,0 0,-2z M80,132l2,0 0,2 -2,0 0,-2z M82,132l2,0 0,2 -2,0 0,-2z M92,132l2,0 0,2 -2,0 0,-2z M96,132l2,0 0,2 -2,0 0,-2z M98,132l2,0 0,2 -2,0 0,-2z M100,132l2,0 0,2 -2,0 0,-2z M102,132l2,0 0,2 -2,0 0,-2z M106,132l2,0 0,2 -2,0 0,-2z M110,132l2,0 0,2 -2,0 0,-2z M114,132l2,0 0,2 -2,0 0,-2z M118,132l2,0 0,2 -2,0 0,-2z M128,132l2,0 0,2 -2,0 0,-2z M130,132l2,0 0,2 -2,0 0,-2z M134,132l2,0 0,2 -2,0 0,-2z M140,132l2,0 0,2 -2,0 0,-2z M142,132l2,0 0,2 -2,0 0,-2z M144,132l2,0 0,2 -2,0 0,-2z M148,132l2,0 0,2 -2,0 0,-2z M158,132l2,0 0,2 -2,0 0,-2z M8,134l2,0 0,2 -2,0 0,-2z M10,134l2,0 0,2 -2,0 0,-2z M12,134l2,0 0,2 -2,0 0,-2z M14,134l2,0 0,2 -2,0 0,-2z M18,134l2,0 0,2 -2,0 0,-2z M22,134l2,0 0,2 -2,0 0,-2z M24,134l2,0 0,2 -2,0 0,-2z M28,134l2,0 0,2 -2,0 0,-2z M30,134l2,0 0,2 -2,0 0,-2z M34,134l2,0 0,2 -2,0 0,-2z M36,134l2,0 0,2 -2,0 0,-2z M42,134l2,0 0,2 -2,0 0,-2z M52,134l2,0 0,2 -2,0 0,-2z M62,134l2,0 0,2 -2,0 0,-2z M68,134l2,0 0,2 -2,0 0,-2z M74,134l2,0 0,2 -2,0 0,-2z M76,134l2,0 0,2 -2,0 0,-2z M78,134l2,0 0,2 -2,0 0,-2z M82,134l2,0 0,2 -2,0 0,-2z M98,134l2,0 0,2 -2,0 0,-2z M100,134l2,0 0,2 -2,0 0,-2z M108,134l2,0 0,2 -2,0 0,-2z M110,134l2,0 0,2 -2,0 0,-2z M114,134l2,0 0,2 -2,0 0,-2z M116,134l2,0 0,2 -2,0 0,-2z M120,134l2,0 0,2 -2,0 0,-2z M122,134l2,0 0,2 -2,0 0,-2z M128,134l2,0 0,2 -2,0 0,-2z M130,134l2,0 0,2 -2,0 0,-2z M132,134l2,0 0,2 -2,0 0,-2z M136,134l2,0 0,2 -2,0 0,-2z M140,134l2,0 0,2 -2,0 0,-2z M158,134l2,0 0,2 -2,0 0,-2z M160,134l2,0 0,2 -2,0 0,-2z M10,136l2,0 0,2 -2,0 0,-2z M16,136l2,0 0,2 -2,0 0,-2z M20,136l2,0 0,2 -2,0 0,-2z M24,136l2,0 0,2 -2,0 0,-2z M26,136l2,0 0,2 -2,0 0,-2z M28,136l2,0 0,2 -2,0 0,-2z M32,136l2,0 0,2 -2,0 0,-2z M40,136l2,0 0,2 -2,0 0,-2z M52,136l2,0 0,2 -2,0 0,-2z M54,136l2,0 0,2 -2,0 0,-2z M62,136l2,0 0,2 -2,0 0,-2z M64,136l2,0 0,2 -2,0 0,-2z M68,136l2,0 0,2 -2,0 0,-2z M72,136l2,0 0,2 -2,0 0,-2z M74,136l2,0 0,2 -2,0 0,-2z M86,136l2,0 0,2 -2,0 0,-2z M88,136l2,0 0,2 -2,0 0,-2z M90,136l2,0 0,2 -2,0 0,-2z M94,136l2,0 0,2 -2,0 0,-2z M108,136l2,0 0,2 -2,0 0,-2z M112,136l2,0 0,2 -2,0 0,-2z M116,136l2,0 0,2 -2,0 0,-2z M118,136l2,0 0,2 -2,0 0,-2z M120,136l2,0 0,2 -2,0 0,-2z M126,136l2,0 0,2 -2,0 0,-2z M128,136l2,0 0,2 -2,0 0,-2z M130,136l2,0 0,2 -2,0 0,-2z M136,136l2,0 0,2 -2,0 0,-2z M138,136l2,0 0,2 -2,0 0,-2z M150,136l2,0 0,2 -2,0 0,-2z M154,136l2,0 0,2 -2,0 0,-2z M156,136l2,0 0,2 -2,0 0,-2z M158,136l2,0 0,2 -2,0 0,-2z M160,136l2,0 0,2 -2,0 0,-2z M10,138l2,0 0,2 -2,0 0,-2z M16,138l2,0 0,2 -2,0 0,-2z M22,138l2,0 0,2 -2,0 0,-2z M26,138l2,0 0,2 -2,0 0,-2z M32,138l2,0 0,2 -2,0 0,-2z M38,138l2,0 0,2 -2,0 0,-2z M40,138l2,0 0,2 -2,0 0,-2z M44,138l2,0 0,2 -2,0 0,-2z M46,138l2,0 0,2 -2,0 0,-2z M50,138l2,0 0,2 -2,0 0,-2z M54,138l2,0 0,2 -2,0 0,-2z M58,138l2,0 0,2 -2,0 0,-2z M60,138l2,0 0,2 -2,0 0,-2z M64,138l2,0 0,2 -2,0 0,-2z M72,138l2,0 0,2 -2,0 0,-2z M78,138l2,0 0,2 -2,0 0,-2z M80,138l2,0 0,2 -2,0 0,-2z M84,138l2,0 0,2 -2,0 0,-2z M86,138l2,0 0,2 -2,0 0,-2z M88,138l2,0 0,2 -2,0 0,-2z M90,138l2,0 0,2 -2,0 0,-2z M94,138l2,0 0,2 -2,0 0,-2z M96,138l2,0 0,2 -2,0 0,-2z M100,138l2,0 0,2 -2,0 0,-2z M102,138l2,0 0,2 -2,0 0,-2z M104,138l2,0 0,2 -2,0 0,-2z M108,138l2,0 0,2 -2,0 0,-2z M112,138l2,0 0,2 -2,0 0,-2z M116,138l2,0 0,2 -2,0 0,-2z M120,138l2,0 0,2 -2,0 0,-2z M136,138l2,0 0,2 -2,0 0,-2z M140,138l2,0 0,2 -2,0 0,-2z M144,138l2,0 0,2 -2,0 0,-2z M146,138l2,0 0,2 -2,0 0,-2z M148,138l2,0 0,2 -2,0 0,-2z M150,138l2,0 0,2 -2,0 0,-2z M152,138l2,0 0,2 -2,0 0,-2z M156,138l2,0 0,2 -2,0 0,-2z M10,140l2,0 0,2 -2,0 0,-2z M16,140l2,0 0,2 -2,0 0,-2z M18,140l2,0 0,2 -2,0 0,-2z M20,140l2,0 0,2 -2,0 0,-2z M22,140l2,0 0,2 -2,0 0,-2z M24,140l2,0 0,2 -2,0 0,-2z M28,140l2,0 0,2 -2,0 0,-2z M36,140l2,0 0,2 -2,0 0,-2z M40,140l2,0 0,2 -2,0 0,-2z M42,140l2,0 0,2 -2,0 0,-2z M46,140l2,0 0,2 -2,0 0,-2z M50,140l2,0 0,2 -2,0 0,-2z M54,140l2,0 0,2 -2,0 0,-2z M66,140l2,0 0,2 -2,0 0,-2z M68,140l2,0 0,2 -2,0 0,-2z M70,140l2,0 0,2 -2,0 0,-2z M74,140l2,0 0,2 -2,0 0,-2z M82,140l2,0 0,2 -2,0 0,-2z M84,140l2,0 0,2 -2,0 0,-2z M86,140l2,0 0,2 -2,0 0,-2z M92,140l2,0 0,2 -2,0 0,-2z M94,140l2,0 0,2 -2,0 0,-2z M96,140l2,0 0,2 -2,0 0,-2z M98,140l2,0 0,2 -2,0 0,-2z M100,140l2,0 0,2 -2,0 0,-2z M102,140l2,0 0,2 -2,0 0,-2z M104,140l2,0 0,2 -2,0 0,-2z M110,140l2,0 0,2 -2,0 0,-2z M114,140l2,0 0,2 -2,0 0,-2z M118,140l2,0 0,2 -2,0 0,-2z M122,140l2,0 0,2 -2,0 0,-2z M128,140l2,0 0,2 -2,0 0,-2z M132,140l2,0 0,2 -2,0 0,-2z M134,140l2,0 0,2 -2,0 0,-2z M140,140l2,0 0,2 -2,0 0,-2z M144,140l2,0 0,2 -2,0 0,-2z M148,140l2,0 0,2 -2,0 0,-2z M156,140l2,0 0,2 -2,0 0,-2z M158,140l2,0 0,2 -2,0 0,-2z M16,142l2,0 0,2 -2,0 0,-2z M22,142l2,0 0,2 -2,0 0,-2z M24,142l2,0 0,2 -2,0 0,-2z M26,142l2,0 0,2 -2,0 0,-2z M28,142l2,0 0,2 -2,0 0,-2z M32,142l2,0 0,2 -2,0 0,-2z M36,142l2,0 0,2 -2,0 0,-2z M40,142l2,0 0,2 -2,0 0,-2z M48,142l2,0 0,2 -2,0 0,-2z M50,142l2,0 0,2 -2,0 0,-2z M54,142l2,0 0,2 -2,0 0,-2z M56,142l2,0 0,2 -2,0 0,-2z M58,142l2,0 0,2 -2,0 0,-2z M66,142l2,0 0,2 -2,0 0,-2z M72,142l2,0 0,2 -2,0 0,-2z M74,142l2,0 0,2 -2,0 0,-2z M76,142l2,0 0,2 -2,0 0,-2z M78,142l2,0 0,2 -2,0 0,-2z M80,142l2,0 0,2 -2,0 0,-2z M82,142l2,0 0,2 -2,0 0,-2z M90,142l2,0 0,2 -2,0 0,-2z M94,142l2,0 0,2 -2,0 0,-2z M96,142l2,0 0,2 -2,0 0,-2z M102,142l2,0 0,2 -2,0 0,-2z M104,142l2,0 0,2 -2,0 0,-2z M112,142l2,0 0,2 -2,0 0,-2z M114,142l2,0 0,2 -2,0 0,-2z M124,142l2,0 0,2 -2,0 0,-2z M128,142l2,0 0,2 -2,0 0,-2z M132,142l2,0 0,2 -2,0 0,-2z M134,142l2,0 0,2 -2,0 0,-2z M140,142l2,0 0,2 -2,0 0,-2z M144,142l2,0 0,2 -2,0 0,-2z M148,142l2,0 0,2 -2,0 0,-2z M152,142l2,0 0,2 -2,0 0,-2z M154,142l2,0 0,2 -2,0 0,-2z M10,144l2,0 0,2 -2,0 0,-2z M12,144l2,0 0,2 -2,0 0,-2z M14,144l2,0 0,2 -2,0 0,-2z M16,144l2,0 0,2 -2,0 0,-2z M20,144l2,0 0,2 -2,0 0,-2z M24,144l2,0 0,2 -2,0 0,-2z M26,144l2,0 0,2 -2,0 0,-2z M28,144l2,0 0,2 -2,0 0,-2z M34,144l2,0 0,2 -2,0 0,-2z M46,144l2,0 0,2 -2,0 0,-2z M48,144l2,0 0,2 -2,0 0,-2z M56,144l2,0 0,2 -2,0 0,-2z M58,144l2,0 0,2 -2,0 0,-2z M60,144l2,0 0,2 -2,0 0,-2z M62,144l2,0 0,2 -2,0 0,-2z M64,144l2,0 0,2 -2,0 0,-2z M66,144l2,0 0,2 -2,0 0,-2z M68,144l2,0 0,2 -2,0 0,-2z M70,144l2,0 0,2 -2,0 0,-2z M74,144l2,0 0,2 -2,0 0,-2z M76,144l2,0 0,2 -2,0 0,-2z M80,144l2,0 0,2 -2,0 0,-2z M82,144l2,0 0,2 -2,0 0,-2z M84,144l2,0 0,2 -2,0 0,-2z M92,144l2,0 0,2 -2,0 0,-2z M94,144l2,0 0,2 -2,0 0,-2z M98,144l2,0 0,2 -2,0 0,-2z M100,144l2,0 0,2 -2,0 0,-2z M102,144l2,0 0,2 -2,0 0,-2z M104,144l2,0 0,2 -2,0 0,-2z M106,144l2,0 0,2 -2,0 0,-2z M108,144l2,0 0,2 -2,0 0,-2z M110,144l2,0 0,2 -2,0 0,-2z M112,144l2,0 0,2 -2,0 0,-2z M116,144l2,0 0,2 -2,0 0,-2z M130,144l2,0 0,2 -2,0 0,-2z M136,144l2,0 0,2 -2,0 0,-2z M138,144l2,0 0,2 -2,0 0,-2z M140,144l2,0 0,2 -2,0 0,-2z M142,144l2,0 0,2 -2,0 0,-2z M144,144l2,0 0,2 -2,0 0,-2z M146,144l2,0 0,2 -2,0 0,-2z M148,144l2,0 0,2 -2,0 0,-2z M150,144l2,0 0,2 -2,0 0,-2z M152,144l2,0 0,2 -2,0 0,-2z M154,144l2,0 0,2 -2,0 0,-2z M158,144l2,0 0,2 -2,0 0,-2z M160,144l2,0 0,2 -2,0 0,-2z M24,146l2,0 0,2 -2,0 0,-2z M28,146l2,0 0,2 -2,0 0,-2z M30,146l2,0 0,2 -2,0 0,-2z M32,146l2,0 0,2 -2,0 0,-2z M40,146l2,0 0,2 -2,0 0,-2z M42,146l2,0 0,2 -2,0 0,-2z M56,146l2,0 0,2 -2,0 0,-2z M64,146l2,0 0,2 -2,0 0,-2z M68,146l2,0 0,2 -2,0 0,-2z M70,146l2,0 0,2 -2,0 0,-2z M74,146l2,0 0,2 -2,0 0,-2z M82,146l2,0 0,2 -2,0 0,-2z M84,146l2,0 0,2 -2,0 0,-2z M86,146l2,0 0,2 -2,0 0,-2z M94,146l2,0 0,2 -2,0 0,-2z M100,146l2,0 0,2 -2,0 0,-2z M108,146l2,0 0,2 -2,0 0,-2z M112,146l2,0 0,2 -2,0 0,-2z M116,146l2,0 0,2 -2,0 0,-2z M118,146l2,0 0,2 -2,0 0,-2z M120,146l2,0 0,2 -2,0 0,-2z M122,146l2,0 0,2 -2,0 0,-2z M124,146l2,0 0,2 -2,0 0,-2z M126,146l2,0 0,2 -2,0 0,-2z M128,146l2,0 0,2 -2,0 0,-2z M132,146l2,0 0,2 -2,0 0,-2z M138,146l2,0 0,2 -2,0 0,-2z M140,146l2,0 0,2 -2,0 0,-2z M144,146l2,0 0,2 -2,0 0,-2z M152,146l2,0 0,2 -2,0 0,-2z M158,146l2,0 0,2 -2,0 0,-2z M160,146l2,0 0,2 -2,0 0,-2z M8,148l2,0 0,2 -2,0 0,-2z M10,148l2,0 0,2 -2,0 0,-2z M12,148l2,0 0,2 -2,0 0,-2z M14,148l2,0 0,2 -2,0 0,-2z M16,148l2,0 0,2 -2,0 0,-2z M18,148l2,0 0,2 -2,0 0,-2z M20,148l2,0 0,2 -2,0 0,-2z M26,148l2,0 0,2 -2,0 0,-2z M30,148l2,0 0,2 -2,0 0,-2z M36,148l2,0 0,2 -2,0 0,-2z M42,148l2,0 0,2 -2,0 0,-2z M44,148l2,0 0,2 -2,0 0,-2z M46,148l2,0 0,2 -2,0 0,-2z M48,148l2,0 0,2 -2,0 0,-2z M50,148l2,0 0,2 -2,0 0,-2z M52,148l2,0 0,2 -2,0 0,-2z M56,148l2,0 0,2 -2,0 0,-2z M60,148l2,0 0,2 -2,0 0,-2z M64,148l2,0 0,2 -2,0 0,-2z M66,148l2,0 0,2 -2,0 0,-2z M70,148l2,0 0,2 -2,0 0,-2z M80,148l2,0 0,2 -2,0 0,-2z M84,148l2,0 0,2 -2,0 0,-2z M88,148l2,0 0,2 -2,0 0,-2z M90,148l2,0 0,2 -2,0 0,-2z M96,148l2,0 0,2 -2,0 0,-2z M98,148l2,0 0,2 -2,0 0,-2z M100,148l2,0 0,2 -2,0 0,-2z M104,148l2,0 0,2 -2,0 0,-2z M108,148l2,0 0,2 -2,0 0,-2z M110,148l2,0 0,2 -2,0 0,-2z M112,148l2,0 0,2 -2,0 0,-2z M116,148l2,0 0,2 -2,0 0,-2z M118,148l2,0 0,2 -2,0 0,-2z M120,148l2,0 0,2 -2,0 0,-2z M122,148l2,0 0,2 -2,0 0,-2z M124,148l2,0 0,2 -2,0 0,-2z M126,148l2,0 0,2 -2,0 0,-2z M132,148l2,0 0,2 -2,0 0,-2z M134,148l2,0 0,2 -2,0 0,-2z M136,148l2,0 0,2 -2,0 0,-2z M138,148l2,0 0,2 -2,0 0,-2z M140,148l2,0 0,2 -2,0 0,-2z M142,148l2,0 0,2 -2,0 0,-2z M144,148l2,0 0,2 -2,0 0,-2z M148,148l2,0 0,2 -2,0 0,-2z M152,148l2,0 0,2 -2,0 0,-2z M154,148l2,0 0,2 -2,0 0,-2z M156,148l2,0 0,2 -2,0 0,-2z M158,148l2,0 0,2 -2,0 0,-2z M8,150l2,0 0,2 -2,0 0,-2z M20,150l2,0 0,2 -2,0 0,-2z M24,150l2,0 0,2 -2,0 0,-2z M26,150l2,0 0,2 -2,0 0,-2z M30,150l2,0 0,2 -2,0 0,-2z M32,150l2,0 0,2 -2,0 0,-2z M34,150l2,0 0,2 -2,0 0,-2z M38,150l2,0 0,2 -2,0 0,-2z M40,150l2,0 0,2 -2,0 0,-2z M42,150l2,0 0,2 -2,0 0,-2z M44,150l2,0 0,2 -2,0 0,-2z M46,150l2,0 0,2 -2,0 0,-2z M48,150l2,0 0,2 -2,0 0,-2z M50,150l2,0 0,2 -2,0 0,-2z M56,150l2,0 0,2 -2,0 0,-2z M64,150l2,0 0,2 -2,0 0,-2z M70,150l2,0 0,2 -2,0 0,-2z M74,150l2,0 0,2 -2,0 0,-2z M76,150l2,0 0,2 -2,0 0,-2z M78,150l2,0 0,2 -2,0 0,-2z M80,150l2,0 0,2 -2,0 0,-2z M84,150l2,0 0,2 -2,0 0,-2z M86,150l2,0 0,2 -2,0 0,-2z M90,150l2,0 0,2 -2,0 0,-2z M94,150l2,0 0,2 -2,0 0,-2z M98,150l2,0 0,2 -2,0 0,-2z M100,150l2,0 0,2 -2,0 0,-2z M108,150l2,0 0,2 -2,0 0,-2z M112,150l2,0 0,2 -2,0 0,-2z M118,150l2,0 0,2 -2,0 0,-2z M120,150l2,0 0,2 -2,0 0,-2z M122,150l2,0 0,2 -2,0 0,-2z M124,150l2,0 0,2 -2,0 0,-2z M126,150l2,0 0,2 -2,0 0,-2z M128,150l2,0 0,2 -2,0 0,-2z M132,150l2,0 0,2 -2,0 0,-2z M136,150l2,0 0,2 -2,0 0,-2z M142,150l2,0 0,2 -2,0 0,-2z M144,150l2,0 0,2 -2,0 0,-2z M152,150l2,0 0,2 -2,0 0,-2z M154,150l2,0 0,2 -2,0 0,-2z M158,150l2,0 0,2 -2,0 0,-2z M8,152l2,0 0,2 -2,0 0,-2z M12,152l2,0 0,2 -2,0 0,-2z M14,152l2,0 0,2 -2,0 0,-2z M16,152l2,0 0,2 -2,0 0,-2z M20,152l2,0 0,2 -2,0 0,-2z M26,152l2,0 0,2 -2,0 0,-2z M30,152l2,0 0,2 -2,0 0,-2z M40,152l2,0 0,2 -2,0 0,-2z M42,152l2,0 0,2 -2,0 0,-2z M46,152l2,0 0,2 -2,0 0,-2z M54,152l2,0 0,2 -2,0 0,-2z M56,152l2,0 0,2 -2,0 0,-2z M58,152l2,0 0,2 -2,0 0,-2z M60,152l2,0 0,2 -2,0 0,-2z M62,152l2,0 0,2 -2,0 0,-2z M64,152l2,0 0,2 -2,0 0,-2z M66,152l2,0 0,2 -2,0 0,-2z M76,152l2,0 0,2 -2,0 0,-2z M78,152l2,0 0,2 -2,0 0,-2z M80,152l2,0 0,2 -2,0 0,-2z M84,152l2,0 0,2 -2,0 0,-2z M86,152l2,0 0,2 -2,0 0,-2z M90,152l2,0 0,2 -2,0 0,-2z M92,152l2,0 0,2 -2,0 0,-2z M94,152l2,0 0,2 -2,0 0,-2z M96,152l2,0 0,2 -2,0 0,-2z M98,152l2,0 0,2 -2,0 0,-2z M100,152l2,0 0,2 -2,0 0,-2z M102,152l2,0 0,2 -2,0 0,-2z M104,152l2,0 0,2 -2,0 0,-2z M106,152l2,0 0,2 -2,0 0,-2z M108,152l2,0 0,2 -2,0 0,-2z M110,152l2,0 0,2 -2,0 0,-2z M112,152l2,0 0,2 -2,0 0,-2z M116,152l2,0 0,2 -2,0 0,-2z M118,152l2,0 0,2 -2,0 0,-2z M122,152l2,0 0,2 -2,0 0,-2z M130,152l2,0 0,2 -2,0 0,-2z M132,152l2,0 0,2 -2,0 0,-2z M134,152l2,0 0,2 -2,0 0,-2z M136,152l2,0 0,2 -2,0 0,-2z M140,152l2,0 0,2 -2,0 0,-2z M144,152l2,0 0,2 -2,0 0,-2z M146,152l2,0 0,2 -2,0 0,-2z M148,152l2,0 0,2 -2,0 0,-2z M150,152l2,0 0,2 -2,0 0,-2z M152,152l2,0 0,2 -2,0 0,-2z M154,152l2,0 0,2 -2,0 0,-2z M160,152l2,0 0,2 -2,0 0,-2z M8,154l2,0 0,2 -2,0 0,-2z M12,154l2,0 0,2 -2,0 0,-2z M14,154l2,0 0,2 -2,0 0,-2z M16,154l2,0 0,2 -2,0 0,-2z M20,154l2,0 0,2 -2,0 0,-2z M24,154l2,0 0,2 -2,0 0,-2z M30,154l2,0 0,2 -2,0 0,-2z M32,154l2,0 0,2 -2,0 0,-2z M36,154l2,0 0,2 -2,0 0,-2z M38,154l2,0 0,2 -2,0 0,-2z M40,154l2,0 0,2 -2,0 0,-2z M48,154l2,0 0,2 -2,0 0,-2z M50,154l2,0 0,2 -2,0 0,-2z M52,154l2,0 0,2 -2,0 0,-2z M56,154l2,0 0,2 -2,0 0,-2z M60,154l2,0 0,2 -2,0 0,-2z M62,154l2,0 0,2 -2,0 0,-2z M64,154l2,0 0,2 -2,0 0,-2z M66,154l2,0 0,2 -2,0 0,-2z M70,154l2,0 0,2 -2,0 0,-2z M80,154l2,0 0,2 -2,0 0,-2z M82,154l2,0 0,2 -2,0 0,-2z M86,154l2,0 0,2 -2,0 0,-2z M90,154l2,0 0,2 -2,0 0,-2z M92,154l2,0 0,2 -2,0 0,-2z M98,154l2,0 0,2 -2,0 0,-2z M100,154l2,0 0,2 -2,0 0,-2z M106,154l2,0 0,2 -2,0 0,-2z M114,154l2,0 0,2 -2,0 0,-2z M116,154l2,0 0,2 -2,0 0,-2z M118,154l2,0 0,2 -2,0 0,-2z M124,154l2,0 0,2 -2,0 0,-2z M130,154l2,0 0,2 -2,0 0,-2z M132,154l2,0 0,2 -2,0 0,-2z M138,154l2,0 0,2 -2,0 0,-2z M140,154l2,0 0,2 -2,0 0,-2z M142,154l2,0 0,2 -2,0 0,-2z M146,154l2,0 0,2 -2,0 0,-2z M148,154l2,0 0,2 -2,0 0,-2z M154,154l2,0 0,2 -2,0 0,-2z M8,156l2,0 0,2 -2,0 0,-2z M12,156l2,0 0,2 -2,0 0,-2z M14,156l2,0 0,2 -2,0 0,-2z M16,156l2,0 0,2 -2,0 0,-2z M20,156l2,0 0,2 -2,0 0,-2z M24,156l2,0 0,2 -2,0 0,-2z M26,156l2,0 0,2 -2,0 0,-2z M32,156l2,0 0,2 -2,0 0,-2z M46,156l2,0 0,2 -2,0 0,-2z M48,156l2,0 0,2 -2,0 0,-2z M50,156l2,0 0,2 -2,0 0,-2z M58,156l2,0 0,2 -2,0 0,-2z M64,156l2,0 0,2 -2,0 0,-2z M66,156l2,0 0,2 -2,0 0,-2z M76,156l2,0 0,2 -2,0 0,-2z M80,156l2,0 0,2 -2,0 0,-2z M82,156l2,0 0,2 -2,0 0,-2z M88,156l2,0 0,2 -2,0 0,-2z M92,156l2,0 0,2 -2,0 0,-2z M96,156l2,0 0,2 -2,0 0,-2z M100,156l2,0 0,2 -2,0 0,-2z M102,156l2,0 0,2 -2,0 0,-2z M104,156l2,0 0,2 -2,0 0,-2z M108,156l2,0 0,2 -2,0 0,-2z M122,156l2,0 0,2 -2,0 0,-2z M130,156l2,0 0,2 -2,0 0,-2z M132,156l2,0 0,2 -2,0 0,-2z M136,156l2,0 0,2 -2,0 0,-2z M144,156l2,0 0,2 -2,0 0,-2z M148,156l2,0 0,2 -2,0 0,-2z M154,156l2,0 0,2 -2,0 0,-2z M156,156l2,0 0,2 -2,0 0,-2z M160,156l2,0 0,2 -2,0 0,-2z M8,158l2,0 0,2 -2,0 0,-2z M20,158l2,0 0,2 -2,0 0,-2z M24,158l2,0 0,2 -2,0 0,-2z M28,158l2,0 0,2 -2,0 0,-2z M30,158l2,0 0,2 -2,0 0,-2z M38,158l2,0 0,2 -2,0 0,-2z M46,158l2,0 0,2 -2,0 0,-2z M48,158l2,0 0,2 -2,0 0,-2z M52,158l2,0 0,2 -2,0 0,-2z M56,158l2,0 0,2 -2,0 0,-2z M60,158l2,0 0,2 -2,0 0,-2z M62,158l2,0 0,2 -2,0 0,-2z M68,158l2,0 0,2 -2,0 0,-2z M76,158l2,0 0,2 -2,0 0,-2z M82,158l2,0 0,2 -2,0 0,-2z M84,158l2,0 0,2 -2,0 0,-2z M88,158l2,0 0,2 -2,0 0,-2z M92,158l2,0 0,2 -2,0 0,-2z M94,158l2,0 0,2 -2,0 0,-2z M98,158l2,0 0,2 -2,0 0,-2z M102,158l2,0 0,2 -2,0 0,-2z M106,158l2,0 0,2 -2,0 0,-2z M108,158l2,0 0,2 -2,0 0,-2z M110,158l2,0 0,2 -2,0 0,-2z M118,158l2,0 0,2 -2,0 0,-2z M122,158l2,0 0,2 -2,0 0,-2z M124,158l2,0 0,2 -2,0 0,-2z M126,158l2,0 0,2 -2,0 0,-2z M134,158l2,0 0,2 -2,0 0,-2z M136,158l2,0 0,2 -2,0 0,-2z M138,158l2,0 0,2 -2,0 0,-2z M142,158l2,0 0,2 -2,0 0,-2z M144,158l2,0 0,2 -2,0 0,-2z M150,158l2,0 0,2 -2,0 0,-2z M152,158l2,0 0,2 -2,0 0,-2z M154,158l2,0 0,2 -2,0 0,-2z M156,158l2,0 0,2 -2,0 0,-2z M158,158l2,0 0,2 -2,0 0,-2z M8,160l2,0 0,2 -2,0 0,-2z M10,160l2,0 0,2 -2,0 0,-2z M12,160l2,0 0,2 -2,0 0,-2z M14,160l2,0 0,2 -2,0 0,-2z M16,160l2,0 0,2 -2,0 0,-2z M18,160l2,0 0,2 -2,0 0,-2z M20,160l2,0 0,2 -2,0 0,-2z M26,160l2,0 0,2 -2,0 0,-2z M30,160l2,0 0,2 -2,0 0,-2z M34,160l2,0 0,2 -2,0 0,-2z M36,160l2,0 0,2 -2,0 0,-2z M38,160l2,0 0,2 -2,0 0,-2z M40,160l2,0 0,2 -2,0 0,-2z M44,160l2,0 0,2 -2,0 0,-2z M46,160l2,0 0,2 -2,0 0,-2z M50,160l2,0 0,2 -2,0 0,-2z M54,160l2,0 0,2 -2,0 0,-2z M56,160l2,0 0,2 -2,0 0,-2z M58,160l2,0 0,2 -2,0 0,-2z M60,160l2,0 0,2 -2,0 0,-2z M68,160l2,0 0,2 -2,0 0,-2z M72,160l2,0 0,2 -2,0 0,-2z M74,160l2,0 0,2 -2,0 0,-2z M78,160l2,0 0,2 -2,0 0,-2z M80,160l2,0 0,2 -2,0 0,-2z M96,160l2,0 0,2 -2,0 0,-2z M98,160l2,0 0,2 -2,0 0,-2z M104,160l2,0 0,2 -2,0 0,-2z M108,160l2,0 0,2 -2,0 0,-2z M112,160l2,0 0,2 -2,0 0,-2z M114,160l2,0 0,2 -2,0 0,-2z M122,160l2,0 0,2 -2,0 0,-2z M126,160l2,0 0,2 -2,0 0,-2z M128,160l2,0 0,2 -2,0 0,-2z M132,160l2,0 0,2 -2,0 0,-2z M134,160l2,0 0,2 -2,0 0,-2z M140,160l2,0 0,2 -2,0 0,-2z M142,160l2,0 0,2 -2,0 0,-2z M144,160l2,0 0,2 -2,0 0,-2z M150,160l2,0 0,2 -2,0 0,-2z M156,160l2,0 0,2 -2,0 0,-2z M158,160l2,0 0,2 -2,0 0,-2z " stroke="transparent" fill="black"/></svg>
+<div class="footer__description--symmetrical"><p class="paragraph footer__author--symmetrical">Aleen<sup class="super">&#xAE;</sup></p><p class="paragraph footer__quote--symmetrical">More than a coder, more than a designer</p><div class="footer__main--symmetrical"><p class="paragraph footer__main__paragraph--symmetrical copyright" style="color: #666 !important;">Copyright &#xA9; aleen42 all right reserved, powered by <a href="https://github.com/aleen42" target="_blank">aleen42</a></p><p class="paragraph footer__main__paragraph--symmetrical footer__modifyTime--symmetrical" style="color: #009fa6 !important;"><span style="color: #666 !important;">update time:</span>
+2018-07-06 16:26:25
+</p></div></div></div><div class="box__issues">
+<span class="issue-line"><p class="issue-header"><strong>20</strong> issues reported</p></span><p class="issues">#32 <a href="https://github.com/aleen42/PersonalWiki/issues/32" target="_blank">[&#x96C6;] A collection of confusing problems met when developing JavaScript under IE</a><span style="margin-left: 10px; color: #ddd;">2018-10-23 17:29:22</span><span class="issue-label" style="background-color: #fbca04; color: #ffffff;">Tasks!</span></p>
+<p class="issue-edge"></p><p class="issues">#30 <a href="https://github.com/aleen42/PersonalWiki/issues/30" target="_blank">[&#x601D;] &#x5F53;&#x9700;&#x8981;&#x4F20;&#x9012;&#x591A;&#x4E2A;&#x4E0D;&#x5B9A;&#x53C2;&#x6570;&#x65F6;&#xFF0C;&#x8BE5;&#x5982;&#x4F55;&#x8BBE;&#x8BA1; JavaScript &#x51FD;&#x6570;&#xFF1F;</a><span style="margin-left: 10px; color: #ddd;">2017-05-29 17:42:07</span><span class="issue-label" style="background-color: #D15A0D; color: #ffffff;">Inspiration!</span></p>
+<p class="issue-edge"></p><p class="issues">#29 <a href="https://github.com/aleen42/PersonalWiki/issues/29" target="_blank">[&#x6B78;&#x7D0D;] 304 Status Code &#x4E0B;&#x7684;&#x5934;&#x90E8;&#x4FE1;&#x606F;</a><span style="margin-left: 10px; color: #ddd;">2018-03-19 20:25:21</span><span class="issue-label" style="background-color: #000000; color: #ffffff;">Communication!</span><span class="issue-label" style="background-color: #FFFFF0; color: #000000;">Summary!</span></p>
+<p class="issue-edge"></p><p class="issues">#28 <a href="https://github.com/aleen42/PersonalWiki/issues/28" target="_blank">[&#x6B78;&#x7D0D;] &#x4F60;&#x4EE5;&#x4E3A; JavaScript &#x6CA1;&#x6570;&#x636E;&#x7ED3;&#x6784;&#x4E48;&#xFF1F;</a><span style="margin-left: 10px; color: #ddd;">2018-03-19 20:25:04</span><span class="issue-label" style="background-color: #000000; color: #ffffff;">Communication!</span><span class="issue-label" style="background-color: #FFFFF0; color: #000000;">Summary!</span></p>
+<p class="issue-edge"></p><p class="issues">#27 <a href="https://github.com/aleen42/PersonalWiki/issues/27" target="_blank">[&#x6B78;&#x7D0D;] JavaScript &#x4E4B;&#x9AD8;&#x6027;&#x80FD;</a><span style="margin-left: 10px; color: #ddd;">2018-03-19 20:24:53</span><span class="issue-label" style="background-color: #000000; color: #ffffff;">Communication!</span><span class="issue-label" style="background-color: #FFFFF0; color: #000000;">Summary!</span></p>
+<p class="issue-edge"></p><p class="issues">#26 <a href="https://github.com/aleen42/PersonalWiki/issues/26" target="_blank">Microtasks? Macrotasks?</a><span style="margin-left: 10px; color: #ddd;">2017-02-27 02:05:36</span><span class="issue-label" style="background-color: #000000; color: #ffffff;">Communication!</span></p>
+<p class="issue-edge"></p><p class="issues">#25 <a href="https://github.com/aleen42/PersonalWiki/issues/25" target="_blank">gitbook-edit plugin ignores book.json root configuration element</a><span style="margin-left: 10px; color: #ddd;">2017-02-25 02:53:37</span><span class="issue-label" style="background-color: #000000; color: #ffffff;">Communication!</span></p>
+<p class="issue-edge"></p><p class="issues">#24 <a href="https://github.com/aleen42/PersonalWiki/issues/24" target="_blank">[&#x8B6F;] Align SVG Icons to Text and Say Goodbye to Font Icons</a><span style="margin-left: 10px; color: #ddd;">2017-02-07 18:39:42</span><span class="issue-label" style="background-color: #fbca04; color: #ffffff;">Translations!</span></p>
+<p class="issue-edge"></p><p class="issues">#23 <a href="https://github.com/aleen42/PersonalWiki/issues/23" target="_blank">[&#x8F49;&#x8F09;] Discover the Full Story of City&apos;s Buildings</a><span style="margin-left: 10px; color: #ddd;">2017-02-04 11:17:33</span><span class="issue-label" style="background-color: #D15A0D; color: #ffffff;">Inspiration!</span><span class="issue-label" style="background-color: #0a347a; color: #ffffff;">Posts!</span></p>
+<p class="issue-edge"></p><p class="issues">#22 <a href="https://github.com/aleen42/PersonalWiki/issues/22" target="_blank">All books has opened a button for editing on Github</a><span style="margin-left: 10px; color: #ddd;">2016-11-21 17:38:58</span><span class="issue-label" style="background-color: #a10000; color: #ffffff;">Author Announcement!</span><span class="issue-label" style="background-color: #0094a1; color: #ffffff;">GitBook!</span></p>
+<p class="issue-edge"></p><p class="issues">#21 <a href="https://github.com/aleen42/PersonalWiki/issues/21" target="_blank">Mingtocat</a><span style="margin-left: 10px; color: #ddd;">2016-10-22 20:42:38</span><span class="issue-label" style="background-color: #888888; color: #000000;">Design!</span></p>
+<p class="issue-edge"></p><p class="issues">#20 <a href="https://github.com/aleen42/PersonalWiki/issues/20" target="_blank">Enhancement of Gitbook Treeview</a><span style="margin-left: 10px; color: #ddd;">2016-10-20 19:59:22</span><span class="issue-label" style="background-color: #60b17c; color: #000000;">Enhancement!</span></p>
+<p class="issue-edge"></p><p class="issues">#19 <a href="https://github.com/aleen42/PersonalWiki/issues/19" target="_blank">[&#x8B6F;] Google Interview University</a><span style="margin-left: 10px; color: #ddd;">2018-10-30 02:58:52</span><span class="issue-label" style="background-color: #fbca04; color: #ffffff;">Translations!</span></p>
+<p class="issue-edge"></p><p class="issues">#18 <a href="https://github.com/aleen42/PersonalWiki/issues/18" target="_blank">[&#x8F49;&#x8F09;] Styling SVG <use></use> Content with CSS</a><span style="margin-left: 10px; color: #ddd;">2016-10-19 02:14:48</span><span class="issue-label" style="background-color: #0a347a; color: #ffffff;">Posts!</span><span class="issue-label" style="background-color: #fbca04; color: #ffffff;">Translations!</span></p>
+<p class="issue-edge"></p><p class="issues">#17 <a href="https://github.com/aleen42/PersonalWiki/issues/17" target="_blank">Drawing in JavaScript</a><span style="margin-left: 10px; color: #ddd;">2018-05-12 01:03:36</span><span class="issue-label" style="background-color: #a10000; color: #ffffff;">Author Announcement!</span></p>
+<p class="issue-edge"></p><p class="issues">#15 <a href="https://github.com/aleen42/PersonalWiki/issues/15" target="_blank">Learning React Redux</a><span style="margin-left: 10px; color: #ddd;">2016-08-29 22:22:55</span><span class="issue-label" style="background-color: #563D7C; color: #ffffff;">Learning Plan!</span></p>
+<p class="issue-edge"></p><p class="issues">#14 <a href="https://github.com/aleen42/PersonalWiki/issues/14" target="_blank">Learning React Router</a><span style="margin-left: 10px; color: #ddd;">2016-08-25 18:55:38</span><span class="issue-label" style="background-color: #563D7C; color: #ffffff;">Learning Plan!</span></p>
+<p class="issue-edge"></p><p class="issues">#13 <a href="https://github.com/aleen42/PersonalWiki/issues/13" target="_blank">Learning Webpack + React</a><span style="margin-left: 10px; color: #ddd;">2016-08-25 18:47:15</span><span class="issue-label" style="background-color: #563D7C; color: #ffffff;">Learning Plan!</span></p>
+<p class="issue-edge"></p><p class="issues">#12 <a href="https://github.com/aleen42/PersonalWiki/issues/12" target="_blank">GitBook Community in Google+</a><span style="margin-left: 10px; color: #ddd;">2016-08-19 18:16:16</span><span class="issue-label" style="background-color: #0094a1; color: #ffffff;">GitBook!</span></p>
+<p class="issue-edge"></p><p class="issues">#10 <a href="https://github.com/aleen42/PersonalWiki/issues/10" target="_blank">&#x6821;&#x5BF9;&#x7EC6;&#x5219;</a><span style="margin-left: 10px; color: #ddd;">2016-07-26 17:13:56</span><span class="issue-label" style="background-color: #a10000; color: #ffffff;">Author Announcement!</span></p>
+
+</div></footer>
+
+
+                                
+                                </section>
+                            
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Arrays","level":"1.5","depth":1,"next":{"title":"Use []","level":"1.5.1","depth":2,"ref":"","articles":[]},"previous":{"title":"Group shorthand","level":"1.4.5","depth":2,"ref":"","articles":[]},"dir":"ltr"},"config":{"plugins":["github","github-edit","sharing","ga","advanced-emoji","page-footer","page-treeview","ace","resources","theme-aleen42"],"styles":{"website":"style/website.css"},"pluginsConfig":{"page-treeview":{"copyright":"Copyright © aleen42","minHeaderCount":"2","minHeaderDeep":"2"},"ace":{},"github":{"url":"https://github.com/aleen42/javascript"},"resources":{"type":"github","repo":"aleen42/javascript","branch":"master"},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"github-edit":{"repo":"aleen42/javascript"},"page-footer":{"isShowIssues":true,"wisdom":"More than a coder, more than a designer","copyright":"Copyright © aleen42","styles (normal, symmetrical)":"normal","issueNum":"20","style":"symmetrical","repo":"aleen42/personalwiki","isShowQRCode":true,"timeColor":"#009fa6","utcOffset":"8","format":"yyyy-MM-dd hh:mm:ss","signature":"Aleen","token":"","baseUri":"https://aleen42.gitbooks.io/javascript/content/","copyrightColor":"#666","description":"update time:"},"ga":{"configuration":"auto","token":"UA-75457732-1"},"advanced-emoji":{"embedEmojis":true},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":true,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-aleen42":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Aleen","links":{"sidebar":{"GitHub Project":"https://github.com/aleen42/javascript"}},"gitbook":"local"},"file":{"path":"arrays/arrays.md","mtime":"2018-07-06T08:26:25.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2018-12-26T16:20:35.289Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github-edit/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-ga/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-ace/ace/ace.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-ace/ace.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
